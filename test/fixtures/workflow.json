@@ -1,0 +1,136 @@
+{
+ "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+ "name": "Bean 1",
+ "description": "(note)",
+ "profile": {
+  "version": "2",
+  "title": "Default",
+  "notes": "This profile is gentle on the coffee puck and not too demanding on the barista.  Produces a very acceptable espresso in a wide variety of settings.",
+  "author": "Decent",
+  "beverage_type": "espresso",
+  "steps": [
+   {
+    "name": "preinfusion temp boost",
+    "pump": "flow",
+    "transition": "fast",
+    "exit": {
+     "type": "pressure",
+     "condition": "over",
+     "value": 4
+    },
+    "volume": 0,
+    "seconds": 2,
+    "weight": 0,
+    "temperature": 92,
+    "sensor": "coffee",
+    "flow": 8,
+    "limiter": null
+   },
+   {
+    "name": "preinfusion",
+    "pump": "flow",
+    "transition": "fast",
+    "exit": {
+     "type": "pressure",
+     "condition": "over",
+     "value": 4
+    },
+    "volume": 0,
+    "seconds": 18,
+    "weight": 0,
+    "temperature": 91,
+    "sensor": "coffee",
+    "flow": 8,
+    "limiter": null
+   },
+   {
+    "name": "forced rise without limit",
+    "pump": "pressure",
+    "transition": "fast",
+    "exit": null,
+    "volume": 0,
+    "seconds": 3,
+    "weight": 0,
+    "temperature": 91,
+    "sensor": "coffee",
+    "pressure": 8.6,
+    "limiter": null
+   },
+   {
+    "name": "rise and hold",
+    "pump": "pressure",
+    "transition": "fast",
+    "exit": null,
+    "volume": 0,
+    "seconds": 1,
+    "weight": 0,
+    "temperature": 91,
+    "sensor": "coffee",
+    "pressure": 8.6,
+    "limiter": null
+   },
+   {
+    "name": "forced rise without limit",
+    "pump": "pressure",
+    "transition": "fast",
+    "exit": null,
+    "volume": 0,
+    "seconds": 3,
+    "weight": 0,
+    "temperature": 91,
+    "sensor": "coffee",
+    "pressure": 8.6,
+    "limiter": null
+   },
+   {
+    "name": "decline",
+    "pump": "pressure",
+    "transition": "smooth",
+    "exit": null,
+    "volume": 0,
+    "seconds": 32,
+    "weight": 0,
+    "temperature": 91,
+    "sensor": "coffee",
+    "pressure": 6,
+    "limiter": null
+   }
+  ],
+  "target_volume": 0,
+  "target_weight": 36,
+  "target_volume_count_start": 2,
+  "tank_temperature": 0
+ },
+ "context": {
+  "targetDoseWeight": 18,
+  "targetYield": 36,
+  "grinderSetting": "3.3",
+  "beanBatchId": "42f3a5c4-fc29-491f-8a7e-dce3c536932e",
+  "coffeeName": "Bean 2",
+  "coffeeRoaster": "Roaster 1",
+  "finalBeverageType": "espresso",
+  "extras": {
+   "basketId": null,
+   "basketName": null,
+   "rpm": 0,
+   "note": null
+  }
+ },
+ "steamSettings": {
+  "targetTemperature": 160,
+  "duration": 120,
+  "flow": 0,
+  "stopAtTemperature": 0
+ },
+ "hotWaterData": {
+  "targetTemperature": 95,
+  "duration": 30,
+  "volume": 100,
+  "flow": 10
+ },
+ "rinseData": {
+  "targetTemperature": 90,
+  "duration": 10,
+  "flow": 4
+ }
+}

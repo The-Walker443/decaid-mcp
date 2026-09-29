@@ -1,0 +1,14 @@
+{
+ "id": "cc947bf8-02f7-4a3b-8e77-a37535b681fa",
+ "beanId": "fa0deff8-33dd-47e6-859d-d19bbd13b05c",
+ "roastDate": "2026-09-01T00:00:00.000Z",
+ "weight": 250,
+ "weightRemaining": 250,
+ "freezeDate": "2026-09-10T00:00:00.000Z",
+ "unfreezeDate": "2026-09-20T00:00:00.000Z",
+ "frozen": false,
+ "archived": false,
+ "notes": "(note)",
+ "createdAt": "2026-09-29T11:17:05.886507",
+ "updatedAt": "2026-09-29T11:17:07.573399"
+}

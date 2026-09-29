@@ -1,0 +1,13 @@
+{
+  "id": "decaid-mcp.reaplugin",
+  "author": "The-Walker443",
+  "name": "Decaid MCP",
+  "description": "MCP server for Claude inside Decaid: shot diagnostics, comparisons and statistics, plus rating, notes, workflow, bean and batch writes. Endpoint: http://<tablet>:8080/api/v1/plugins/decaid-mcp.reaplugin/mcp - unauthenticated, publish only behind your own access control.",
+  "version": "0.1.0",
+  "apiVersion": 1,
+  "permissions": ["log", "api"],
+  "settings": {},
+  "api": [
+    { "id": "mcp", "type": "http", "data": {} }
+  ]
+}

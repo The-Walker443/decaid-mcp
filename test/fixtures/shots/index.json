@@ -1,0 +1,62 @@
+[
+ {
+  "file": "shot-01.json",
+  "id": "62b19791-7488-479d-8ea9-e17f6111a1fa",
+  "why": "latest",
+  "points": 183
+ },
+ {
+  "file": "shot-02.json",
+  "id": "f8e67097-8b77-458f-80ed-e3ae53986bef",
+  "why": "profile Roaster 2 – Bean 4",
+  "points": 184
+ },
+ {
+  "file": "shot-03.json",
+  "id": "bf7e7998-32ad-48c1-84df-a3be1eb96bb3",
+  "why": "profile D-Flow cc Decaf",
+  "points": 183
+ },
+ {
+  "file": "shot-04.json",
+  "id": "42bfc623-f233-464b-8d0d-81952413348b",
+  "why": "profile Roaster 2 – Bean 6",
+  "points": 138
+ },
+ {
+  "file": "shot-05.json",
+  "id": "93286eec-ac3a-4e46-89f8-13fa43dd5705",
+  "why": "profile D-Flow (longest)",
+  "points": 280
+ },
+ {
+  "file": "shot-06.json",
+  "id": "cc8d1668-ae09-49d1-8c08-7e255bb6099b",
+  "why": "profile Adaptive v3",
+  "points": 143
+ },
+ {
+  "file": "shot-07.json",
+  "id": "51904a41-137f-4877-8a52-4fe434d66f0b",
+  "why": "profile Blooming Espresso",
+  "points": 269
+ },
+ {
+  "file": "shot-08.json",
+  "id": "d402ce3d-e1b4-4dbb-8a00-679ac5ed30ec",
+  "why": "machineEnded",
+  "points": 195
+ },
+ {
+  "file": "shot-09.json",
+  "id": "6916c882-ee43-4012-81ed-a6ef1d003ccb",
+  "why": "no or tiny yield",
+  "points": 5
+ },
+ {
+  "file": "shot-10.json",
+  "id": "6ed8699c-b82d-4ca8-890e-a4b9264b3ad1",
+  "why": "rated low",
+  "points": 136
+ }
+]

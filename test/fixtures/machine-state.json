@@ -1,0 +1,17 @@
+{
+ "timestamp": "2026-09-29T12:53:54.216425",
+ "state": {
+  "state": "idle",
+  "substate": "idle"
+ },
+ "flow": 0,
+ "pressure": 0.001953125,
+ "targetFlow": 4,
+ "targetPressure": 0,
+ "mixTemperature": 90.73828125,
+ "groupTemperature": 92.14105224609375,
+ "targetMixTemperature": 95,
+ "targetGroupTemperature": 92,
+ "profileFrame": 5,
+ "steamTemperature": 159
+}

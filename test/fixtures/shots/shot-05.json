@@ -1,0 +1,7713 @@
+{
+ "id": "93286eec-ac3a-4e46-89f8-13fa43dd5705",
+ "timestamp": "2026-09-28T04:56:57.462879",
+ "createdAt": "2026-09-28T02:58:11.562617Z",
+ "updatedAt": "2026-09-28T03:01:04.125877Z",
+ "measurements": [
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:56:57.456839",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 0.098388671875,
+    "pressure": 0.002685546875,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.50390625,
+    "groupTemperature": 94.43630981445312,
+    "targetMixTemperature": 32.48828125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:56:57.431498",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:56:57.726039",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 0.37451171875,
+    "pressure": 0.00341796875,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 94.41740417480469,
+    "targetMixTemperature": 32.609375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:56:57.624788",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:56:57.951474",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 0.59033203125,
+    "pressure": 0.00390625,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.50390625,
+    "groupTemperature": 94.43867492675781,
+    "targetMixTemperature": 32.6875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:56:57.926125",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:56:58.221840",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 0.81005859375,
+    "pressure": 0.003662109375,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 94.46478271484375,
+    "targetMixTemperature": 32.24609375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:56:58.106690",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:56:58.491853",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 0.9697265625,
+    "pressure": 0.00341796875,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.5390625,
+    "groupTemperature": 94.48165893554688,
+    "targetMixTemperature": 32.12109375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:56:58.421596",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:56:58.716771",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.13525390625,
+    "pressure": 0.003662109375,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.63671875,
+    "groupTemperature": 94.47196960449219,
+    "targetMixTemperature": 31.9609375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:56:58.601861",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:56:58.986636",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.254638671875,
+    "pressure": 0.003662109375,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.50390625,
+    "groupTemperature": 94.46484375,
+    "targetMixTemperature": 31.71484375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:56:58.917040",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:56:59.211796",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.370849609375,
+    "pressure": 0.00390625,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.5390625,
+    "groupTemperature": 94.51066589355469,
+    "targetMixTemperature": 31.38671875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:56:59.141719",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:56:59.481912",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.466552734375,
+    "pressure": 0.00341796875,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.46875,
+    "groupTemperature": 94.45278930664062,
+    "targetMixTemperature": 30.9765625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:56:59.411806",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:56:59.706602",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.560302734375,
+    "pressure": 0.003662109375,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 94.45088195800781,
+    "targetMixTemperature": 36.890625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:56:59.636784",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:56:59.976729",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.6884765625,
+    "pressure": 0.00390625,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 94.50588989257812,
+    "targetMixTemperature": 46.03515625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:56:59.906919",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:00.201637",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.740234375,
+    "pressure": 0.004150390625,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.50390625,
+    "groupTemperature": 94.41448974609375,
+    "targetMixTemperature": 53.5078125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:00.131299",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:00.472257",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.77197265625,
+    "pressure": 0.00390625,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.5703125,
+    "groupTemperature": 94.44314575195312,
+    "targetMixTemperature": 59.26953125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:00.399334",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:00.741277",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.795166015625,
+    "pressure": 0.00341796875,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 94.479248046875,
+    "targetMixTemperature": 63.6796875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:00.699527",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:00.966665",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.81689453125,
+    "pressure": 0.00390625,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 94.47390747070312,
+    "targetMixTemperature": 67.26953125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:00.909042",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:01.236814",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.853759765625,
+    "pressure": 0.003662109375,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.40234375,
+    "groupTemperature": 94.51744079589844,
+    "targetMixTemperature": 70.078125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:01.209168",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:01.461979",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.886962890625,
+    "pressure": 0.003662109375,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 94.51055908203125,
+    "targetMixTemperature": 72.265625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:01.389328",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:01.731618",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.896240234375,
+    "pressure": 0.00390625,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 94.45326232910156,
+    "targetMixTemperature": 74.04296875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:01.689041",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:01.957061",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.90673828125,
+    "pressure": 0.00390625,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 94.42579650878906,
+    "targetMixTemperature": 75.46875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:01.899715",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:02.226436",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.875244140625,
+    "pressure": 0.004150390625,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.46875,
+    "groupTemperature": 94.42964172363281,
+    "targetMixTemperature": 76.7109375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:02.199201",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:02.451650",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.912353515625,
+    "pressure": 0.00390625,
+    "targetFlow": 2,
+    "targetPressure": 0,
+    "mixTemperature": 90.46875,
+    "groupTemperature": 94.45001220703125,
+    "targetMixTemperature": 77.62109375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:02.409355",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:02.721164",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 1.966796875,
+    "pressure": 0.00390625,
+    "targetFlow": 3.375,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 94.46623229980469,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:02.708897",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:02.992330",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 2.261962890625,
+    "pressure": 0.003662109375,
+    "targetFlow": 4,
+    "targetPressure": 0,
+    "mixTemperature": 90.46875,
+    "groupTemperature": 94.42491149902344,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:02.889484",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:03.217262",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 2.63525390625,
+    "pressure": 0.003662109375,
+    "targetFlow": 4,
+    "targetPressure": 0,
+    "mixTemperature": 90.37109375,
+    "groupTemperature": 94.45950317382812,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:03.189276",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:03.487164",
+    "state": {
+     "state": "espresso",
+     "substate": "preparingForShot"
+    },
+    "flow": 2.905517578125,
+    "pressure": 0.003662109375,
+    "targetFlow": 4,
+    "targetPressure": 0,
+    "mixTemperature": 90.46875,
+    "groupTemperature": 94.47744750976562,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:03.399416",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:03.712168",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 3.1572265625,
+    "pressure": 0.00390625,
+    "targetFlow": 0,
+    "targetPressure": 2.5625,
+    "mixTemperature": 90.40234375,
+    "groupTemperature": 82.27923583984375,
+    "targetMixTemperature": 96.03515625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 0,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:03.699280",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:03.982721",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 3.910888671875,
+    "pressure": 0.111572265625,
+    "targetFlow": 0,
+    "targetPressure": 2.75,
+    "mixTemperature": 86.96875,
+    "groupTemperature": 82.38597106933594,
+    "targetMixTemperature": 99.46875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 0,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:03.878664",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:04.206527",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 4.68359375,
+    "pressure": 0.513916015625,
+    "targetFlow": 0,
+    "targetPressure": 2.8125,
+    "mixTemperature": 86.18359375,
+    "groupTemperature": 82.40655517578125,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 0,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:04.178993",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:04.475764",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 5.277587890625,
+    "pressure": 0.684814453125,
+    "targetFlow": 0,
+    "targetPressure": 2.875,
+    "mixTemperature": 86.8046875,
+    "groupTemperature": 82.22909545898438,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 0,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:04.389468",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:04.749771",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 5.7080078125,
+    "pressure": 0.838134765625,
+    "targetFlow": 0,
+    "targetPressure": 2.9375,
+    "mixTemperature": 87.8203125,
+    "groupTemperature": 81.67153930664062,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 0,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:04.688899",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:04.971533",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 5.965576171875,
+    "pressure": 0.9423828125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 88.9765625,
+    "groupTemperature": 81.5174560546875,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 0,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:04.899284",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:05.242028",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 6.138671875,
+    "pressure": 1.150146484375,
+    "targetFlow": 0,
+    "targetPressure": 2,
+    "mixTemperature": 90.0703125,
+    "groupTemperature": 81.68150329589844,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:05.199255",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:05.466635",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 6.26611328125,
+    "pressure": 1.179443359375,
+    "targetFlow": 0,
+    "targetPressure": 2.375,
+    "mixTemperature": 90.9375,
+    "groupTemperature": 82.14682006835938,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:05.379257",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:05.737669",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 6.384765625,
+    "pressure": 1.306884765625,
+    "targetFlow": 0,
+    "targetPressure": 2.625,
+    "mixTemperature": 91.4765625,
+    "groupTemperature": 82.76805114746094,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:05.678858",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:05.961619",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 6.44873046875,
+    "pressure": 1.360107421875,
+    "targetFlow": 0,
+    "targetPressure": 2.75,
+    "mixTemperature": 92.01171875,
+    "groupTemperature": 83.29031372070312,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:05.889164",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:06.231401",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 6.43896484375,
+    "pressure": 1.479736328125,
+    "targetFlow": 0,
+    "targetPressure": 2.8125,
+    "mixTemperature": 92.3515625,
+    "groupTemperature": 83.81939697265625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:06.189512",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:06.456692",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 6.47607421875,
+    "pressure": 1.570068359375,
+    "targetFlow": 0,
+    "targetPressure": 2.9375,
+    "mixTemperature": 92.3515625,
+    "groupTemperature": 84.54420471191406,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:06.369134",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:06.727239",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 6.46142578125,
+    "pressure": 1.951171875,
+    "targetFlow": 0,
+    "targetPressure": 2.9375,
+    "mixTemperature": 92.65625,
+    "groupTemperature": 85.27531433105469,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:06.668968",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:06.996274",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 6.457275390625,
+    "pressure": 2.196533203125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 92.82421875,
+    "groupTemperature": 85.90745544433594,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:06.968716",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:07.221601",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 6.364990234375,
+    "pressure": 2.560302734375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 92.859375,
+    "groupTemperature": 86.55368041992188,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:07.178896",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:07.491088",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 6.18115234375,
+    "pressure": 2.862548828125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 92.92578125,
+    "groupTemperature": 86.97071838378906,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:07.478777",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:07.717519",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 5.7470703125,
+    "pressure": 3.255859375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 92.890625,
+    "groupTemperature": 87.32603454589844,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:07.688800",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:07.987099",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 5.2294921875,
+    "pressure": 3.398193359375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 92.859375,
+    "groupTemperature": 87.65625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:07.870004",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:08.212017",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 4.592041015625,
+    "pressure": 3.529541015625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 92.82421875,
+    "groupTemperature": 87.87037658691406,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:08.168854",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:08.481181",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 3.9130859375,
+    "pressure": 3.548583984375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 92.72265625,
+    "groupTemperature": 88.19087219238281,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:08.469080",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:08.706410",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 3.3115234375,
+    "pressure": 3.5185546875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 92.6875,
+    "groupTemperature": 88.48556518554688,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:08.678976",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:08.976911",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 2.8173828125,
+    "pressure": 3.408447265625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 92.5859375,
+    "groupTemperature": 88.67579650878906,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:08.859256",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:09.246416",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 2.326904296875,
+    "pressure": 3.43896484375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 92.453125,
+    "groupTemperature": 88.83840942382812,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:09.159111",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:09.470954",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 1.934814453125,
+    "pressure": 3.24853515625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 92.28125,
+    "groupTemperature": 89.00779724121094,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:09.458978",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:09.742823",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 1.62548828125,
+    "pressure": 3.2392578125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 91.98046875,
+    "groupTemperature": 89.18440246582031,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:09.669114",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:09.968493",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 1.33935546875,
+    "pressure": 3.298828125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 91.87890625,
+    "groupTemperature": 89.19047546386719,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:09.878775",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:10.236640",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 1.172119140625,
+    "pressure": 3.15966796875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 91.8125,
+    "groupTemperature": 89.24972534179688,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:10.178786",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:10.462746",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 1.010986328125,
+    "pressure": 3.074951171875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 91.609375,
+    "groupTemperature": 89.41421508789062,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:10.360773",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:10.732131",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.9228515625,
+    "pressure": 2.97314453125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 91.40625,
+    "groupTemperature": 89.38291931152344,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:10.658754",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:10.958338",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.84814453125,
+    "pressure": 3.00927734375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 91.00390625,
+    "groupTemperature": 89.37153625488281,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:10.869022",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:11.226843",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.775634765625,
+    "pressure": 3.067626953125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 90.73828125,
+    "groupTemperature": 89.43489074707031,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:11.168981",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:11.496664",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.70263671875,
+    "pressure": 3.0771484375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 90.50390625,
+    "groupTemperature": 89.46153259277344,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:11.469476",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:11.721516",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.650390625,
+    "pressure": 3.141845703125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 90.37109375,
+    "groupTemperature": 89.54032897949219,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:11.648849",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:11.991701",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.53173828125,
+    "pressure": 3.14404296875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 90.171875,
+    "groupTemperature": 89.55537414550781,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:11.949291",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:12.216619",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.5048828125,
+    "pressure": 2.96044921875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 90.0703125,
+    "groupTemperature": 89.59896850585938,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:12.158980",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:12.486286",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.435546875,
+    "pressure": 3.0009765625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 89.87109375,
+    "groupTemperature": 89.66299438476562,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:12.458501",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:12.712161",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.43505859375,
+    "pressure": 3.00048828125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 89.703125,
+    "groupTemperature": 89.6236572265625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:12.668668",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:12.981295",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.442138671875,
+    "pressure": 2.9873046875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 89.5703125,
+    "groupTemperature": 89.67231750488281,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:12.970079",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:13.206132",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.390869140625,
+    "pressure": 3.0283203125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 89.4375,
+    "groupTemperature": 89.75553894042969,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:13.148871",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:13.476069",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.39013671875,
+    "pressure": 3.02734375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 89.109375,
+    "groupTemperature": 89.72894287109375,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:13.448588",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:13.746807",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.354736328125,
+    "pressure": 3.008056640625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 89.0078125,
+    "groupTemperature": 89.79061889648438,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:13.658662",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:13.971141",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.373291015625,
+    "pressure": 2.986083984375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 88.94140625,
+    "groupTemperature": 89.83888244628906,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:13.959262",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:14.241542",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.35595703125,
+    "pressure": 3.08837890625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 88.84375,
+    "groupTemperature": 89.82052612304688,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:14.138982",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:14.466108",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.384521484375,
+    "pressure": 3.09814453125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 88.4140625,
+    "groupTemperature": 89.83351135253906,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:14.439431",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:14.738749",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.310791015625,
+    "pressure": 3.132080078125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 88.48046875,
+    "groupTemperature": 89.9000244140625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:14.648943",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:14.961275",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.24267578125,
+    "pressure": 3.07568359375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 88.28125,
+    "groupTemperature": 89.89152526855469,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:14.949101",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:15.231462",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.188720703125,
+    "pressure": 3.014404296875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 88.21484375,
+    "groupTemperature": 89.87014770507812,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:15.159082",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:15.456688",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.214111328125,
+    "pressure": 2.910888671875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 88.21484375,
+    "groupTemperature": 89.88154602050781,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:15.338766",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:15.726528",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.216796875,
+    "pressure": 2.973876953125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 88.05078125,
+    "groupTemperature": 89.88034057617188,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:15.638701",
+    "weight": 0,
+    "weightFlow": 0,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:15.996788",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.272216796875,
+    "pressure": 2.979736328125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 88.01953125,
+    "groupTemperature": 89.90837097167969,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:15.938872",
+    "weight": 0,
+    "weightFlow": 0.019646365422396856,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:16.221732",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.2294921875,
+    "pressure": 3.028076171875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 87.8203125,
+    "groupTemperature": 89.90538024902344,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:16.148752",
+    "weight": 0.1,
+    "weightFlow": 0.056032732049584644,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:16.491524",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.281982421875,
+    "pressure": 2.990234375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 87.921875,
+    "groupTemperature": 89.91001892089844,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:16.449072",
+    "weight": 0.1,
+    "weightFlow": 0.11492924350776594,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:16.716751",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.2333984375,
+    "pressure": 3.07373046875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 87.65625,
+    "groupTemperature": 89.85321044921875,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:16.628619",
+    "weight": 0.1,
+    "weightFlow": 0.131623734325796,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:16.987046",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.1826171875,
+    "pressure": 2.984375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 87.59375,
+    "groupTemperature": 89.94322204589844,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:16.929194",
+    "weight": 0,
+    "weightFlow": 0.05521877552126649,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:17.212018",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.246337890625,
+    "pressure": 3.024658203125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 87.52734375,
+    "groupTemperature": 89.98580932617188,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:17.139310",
+    "weight": 0.2,
+    "weightFlow": 0.038440252031333624,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:17.481645",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.199951171875,
+    "pressure": 3.1044921875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 87.4296875,
+    "groupTemperature": 89.96543884277344,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:17.439223",
+    "weight": 0.1,
+    "weightFlow": 0.037451474023575806,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:17.706377",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.156005859375,
+    "pressure": 3.03076171875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 87.328125,
+    "groupTemperature": 89.91188049316406,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:17.648660",
+    "weight": 0.1,
+    "weightFlow": 0.020756983205545757,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:17.976083",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.12158203125,
+    "pressure": 2.990966796875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 87.265625,
+    "groupTemperature": 89.94017028808594,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:17.948609",
+    "weight": 0.1,
+    "weightFlow": 0.07751557658767838,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:18.246672",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.177001953125,
+    "pressure": 2.896484375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 87.296875,
+    "groupTemperature": 89.94081115722656,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:18.128133",
+    "weight": 0.2,
+    "weightFlow": 0.07463014147717932,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:18.471883",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.20263671875,
+    "pressure": 2.981201171875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 87.296875,
+    "groupTemperature": 89.97964477539062,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:18.429231",
+    "weight": 0.2,
+    "weightFlow": 0.09401027583660168,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:18.741152",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.32275390625,
+    "pressure": 3.14111328125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 87.1015625,
+    "groupTemperature": 90.03041076660156,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:18.728922",
+    "weight": 0.2,
+    "weightFlow": 0.10624073400342149,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:18.965762",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.26806640625,
+    "pressure": 3.392822265625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.90234375,
+    "groupTemperature": 89.93109130859375,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:18.939019",
+    "weight": 0.2,
+    "weightFlow": 0.08841542206046249,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:19.236354",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.209716796875,
+    "pressure": 3.20947265625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.73828125,
+    "groupTemperature": 89.94725036621094,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:19.118587",
+    "weight": 0.4,
+    "weightFlow": 0.10678073333195226,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:19.461449",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.163330078125,
+    "pressure": 3.078857421875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.73828125,
+    "groupTemperature": 89.92141723632812,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:19.418964",
+    "weight": 0.3,
+    "weightFlow": 0.08655736045038889,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:19.731441",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.126953125,
+    "pressure": 3.001708984375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.640625,
+    "groupTemperature": 89.93978881835938,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:19.718868",
+    "weight": 0.3,
+    "weightFlow": 0.07141354996434422,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:19.956281",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.098876953125,
+    "pressure": 2.944580078125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.640625,
+    "groupTemperature": 89.99171447753906,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:19.930453",
+    "weight": 0.4,
+    "weightFlow": 0.10880833353156938,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:20.226389",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.180908203125,
+    "pressure": 2.96240234375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.640625,
+    "groupTemperature": 89.99296569824219,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:20.138564",
+    "weight": 0.4,
+    "weightFlow": 0.1346892937053074,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:20.496523",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.151123046875,
+    "pressure": 3.051513671875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.4140625,
+    "groupTemperature": 89.91903686523438,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:20.438785",
+    "weight": 0.4,
+    "weightFlow": 0.13035614018097672,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:20.721533",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.200439453125,
+    "pressure": 2.950439453125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.4140625,
+    "groupTemperature": 90.02375793457031,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:20.617909",
+    "weight": 0.4,
+    "weightFlow": 0.11646276981112594,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:20.991317",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.1923828125,
+    "pressure": 3.063720703125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.54296875,
+    "groupTemperature": 90.04844665527344,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:20.918338",
+    "weight": 0.6,
+    "weightFlow": 0.14717417171481179,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:21.216283",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.152099609375,
+    "pressure": 3.03759765625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.578125,
+    "groupTemperature": 90.0303955078125,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:21.128602",
+    "weight": 0.5,
+    "weightFlow": 0.14211566933536798,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:21.487132",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.196533203125,
+    "pressure": 2.936279296875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.37890625,
+    "groupTemperature": 90.02619934082031,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:21.428752",
+    "weight": 0.5,
+    "weightFlow": 0.1298190417015473,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:21.711984",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.193359375,
+    "pressure": 3.05322265625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.34765625,
+    "groupTemperature": 90.02861022949219,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:21.608647",
+    "weight": 0.5,
+    "weightFlow": 0.10818679725447267,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:21.981878",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.1533203125,
+    "pressure": 3.042724609375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.4140625,
+    "groupTemperature": 89.97496032714844,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:21.908631",
+    "weight": 0.6,
+    "weightFlow": 0.07878275044885888,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:22.206741",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.119384765625,
+    "pressure": 2.9931640625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.4453125,
+    "groupTemperature": 90.01272583007812,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:22.117908",
+    "weight": 0.69,
+    "weightFlow": 0.09202646330376418,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:22.476394",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.159912109375,
+    "pressure": 2.966552734375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.4140625,
+    "groupTemperature": 90.03712463378906,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:22.418468",
+    "weight": 0.6,
+    "weightFlow": 0.10863653952147198,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:22.745164",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.17431640625,
+    "pressure": 3.046630859375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.37890625,
+    "groupTemperature": 90.04635620117188,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:22.718159",
+    "weight": 0.6,
+    "weightFlow": 0.11323619538343757,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:22.971431",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.13916015625,
+    "pressure": 3.03515625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.31640625,
+    "groupTemperature": 90.02011108398438,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:22.928454",
+    "weight": 0.8,
+    "weightFlow": 0.14084902143809908,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:23.241053",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.190673828125,
+    "pressure": 2.971435546875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.21875,
+    "groupTemperature": 89.98228454589844,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:23.228872",
+    "weight": 0.69,
+    "weightFlow": 0.10503100415794724,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:23.466464",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.158447265625,
+    "pressure": 3.068115234375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.15234375,
+    "groupTemperature": 90.01304626464844,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:23.408690",
+    "weight": 0.69,
+    "weightFlow": 0.045773481250853655,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:23.735923",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.218505859375,
+    "pressure": 2.990966796875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.12109375,
+    "groupTemperature": 89.97276306152344,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:23.708545",
+    "weight": 0.89,
+    "weightFlow": 0.13136571406093148,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:23.961295",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.19384765625,
+    "pressure": 3.1103515625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.18359375,
+    "groupTemperature": 90.05947875976562,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:23.918656",
+    "weight": 0.8,
+    "weightFlow": 0.13632772048201044,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:24.230791",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.152587890625,
+    "pressure": 3.04541015625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.15234375,
+    "groupTemperature": 90.01971435546875,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:24.218622",
+    "weight": 0.89,
+    "weightFlow": 0.14046369106751105,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:24.457008",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.11865234375,
+    "pressure": 2.96484375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0859375,
+    "groupTemperature": 90.04183959960938,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:24.400233",
+    "weight": 0.8,
+    "weightFlow": 0.16338035773417775,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:24.726252",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.165283203125,
+    "pressure": 2.935546875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0859375,
+    "groupTemperature": 90.01557922363281,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:24.698717",
+    "weight": 1,
+    "weightFlow": 0.20699558450101133,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:24.957247",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.173583984375,
+    "pressure": 3.0390625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.95703125,
+    "groupTemperature": 89.95927429199219,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:24.908727",
+    "weight": 1,
+    "weightFlow": 0.21127794394292315,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:25.221036",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.13818359375,
+    "pressure": 3.024169921875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.92578125,
+    "groupTemperature": 89.98973083496094,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:25.209216",
+    "weight": 1,
+    "weightFlow": 0.15310216694271728,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:25.536005",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.107666015625,
+    "pressure": 2.99169921875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.98828125,
+    "groupTemperature": 90.00344848632812,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:25.508738",
+    "weight": 1.1,
+    "weightFlow": 0.13500713183535984,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:25.715637",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.14453125,
+    "pressure": 2.974609375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.98828125,
+    "groupTemperature": 90.00868225097656,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:25.601579",
+    "weight": 1.1,
+    "weightFlow": 0.12232208394671178,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:25.985821",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.167724609375,
+    "pressure": 3.044921875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0234375,
+    "groupTemperature": 90.0142822265625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:25.898501",
+    "weight": 1.1,
+    "weightFlow": 0.07796327829107663,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:26.211060",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.134521484375,
+    "pressure": 3.040283203125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.98828125,
+    "groupTemperature": 89.99032592773438,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:26.199451",
+    "weight": 1.2,
+    "weightFlow": 0.09471369705154561,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:26.481484",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.10498046875,
+    "pressure": 2.99462890625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0859375,
+    "groupTemperature": 90.04594421386719,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:26.408358",
+    "weight": 1.2,
+    "weightFlow": 0.13071432125472957,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:26.706003",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.164794921875,
+    "pressure": 3.040771484375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0546875,
+    "groupTemperature": 90.01945495605469,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:26.588436",
+    "weight": 1.2,
+    "weightFlow": 0.12880780866239386,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:26.975754",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.134765625,
+    "pressure": 3.067138671875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0859375,
+    "groupTemperature": 89.99673461914062,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:26.889211",
+    "weight": 1.2,
+    "weightFlow": 0.09251592901137182,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:27.200449",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.166015625,
+    "pressure": 2.94482421875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0546875,
+    "groupTemperature": 90.07452392578125,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:27.188512",
+    "weight": 1.29,
+    "weightFlow": 0.12725188034861695,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:27.471005",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.1845703125,
+    "pressure": 3.02783203125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.12109375,
+    "groupTemperature": 90.00376892089844,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:27.398544",
+    "weight": 1.29,
+    "weightFlow": 0.10501899784694946,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:27.741076",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.147705078125,
+    "pressure": 3.02734375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0546875,
+    "groupTemperature": 90.02021789550781,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:27.698919",
+    "weight": 1.39,
+    "weightFlow": 0.08614438045904928,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:27.967054",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.12841796875,
+    "pressure": 2.9404296875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.890625,
+    "groupTemperature": 90.02333068847656,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:27.908803",
+    "weight": 1.39,
+    "weightFlow": 0.14517131073323358,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:28.235716",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.19384765625,
+    "pressure": 3.0234375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0234375,
+    "groupTemperature": 90.05903625488281,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:28.208689",
+    "weight": 1.39,
+    "weightFlow": 0.12994890307781565,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:28.461797",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.157470703125,
+    "pressure": 3.108642578125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.92578125,
+    "groupTemperature": 90.00126647949219,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:28.389315",
+    "weight": 1.5,
+    "weightFlow": 0.13329338468316682,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:28.732426",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.123046875,
+    "pressure": 3.08056640625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.95703125,
+    "groupTemperature": 89.97576904296875,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:28.688433",
+    "weight": 1.5,
+    "weightFlow": 0.17204356953324135,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:28.956117",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.095703125,
+    "pressure": 3.01806640625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0234375,
+    "groupTemperature": 90.00529479980469,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:28.898503",
+    "weight": 1.5,
+    "weightFlow": 0.1506788247729252,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:29.227050",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.0947265625,
+    "pressure": 2.914306640625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.92578125,
+    "groupTemperature": 89.95486450195312,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:29.198438",
+    "weight": 1.6,
+    "weightFlow": 0.13110935314865912,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:29.451856",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.245849609375,
+    "pressure": 3.035400390625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.890625,
+    "groupTemperature": 90.013427734375,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:29.378482",
+    "weight": 1.6,
+    "weightFlow": 0.14905556055965458,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:29.721682",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.20361328125,
+    "pressure": 3.16845703125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.6640625,
+    "groupTemperature": 90.0191650390625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:29.678592",
+    "weight": 1.6,
+    "weightFlow": 0.12699986652761014,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:29.991104",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.159423828125,
+    "pressure": 2.993408203125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.6328125,
+    "groupTemperature": 89.99041748046875,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:29.978771",
+    "weight": 1.7,
+    "weightFlow": 0.14651684169136506,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:30.217071",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.1240234375,
+    "pressure": 2.9345703125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.6640625,
+    "groupTemperature": 89.95086669921875,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:30.188752",
+    "weight": 1.7,
+    "weightFlow": 0.1661246848286199,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:30.532505",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.200927734375,
+    "pressure": 2.972412109375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.56640625,
+    "groupTemperature": 90.005126953125,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:30.488811",
+    "weight": 1.89,
+    "weightFlow": 0.1641253782297524,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:30.711353",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.16552734375,
+    "pressure": 3.0615234375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.53515625,
+    "groupTemperature": 89.99502563476562,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:30.698551",
+    "weight": 1.79,
+    "weightFlow": 0.18386261629187955,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:30.980903",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.12939453125,
+    "pressure": 3.0869140625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.6328125,
+    "groupTemperature": 89.97077941894531,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:30.878585",
+    "weight": 1.79,
+    "weightFlow": 0.18139959361077934,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:31.205904",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.100830078125,
+    "pressure": 3.04150390625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.76171875,
+    "groupTemperature": 89.95944213867188,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:31.178241",
+    "weight": 1.89,
+    "weightFlow": 0.14091492375118625,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:31.476592",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.10693359375,
+    "pressure": 2.9345703125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.859375,
+    "groupTemperature": 89.84912109375,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:31.388662",
+    "weight": 1.89,
+    "weightFlow": 0.16115929860074035,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:31.700435",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.248046875,
+    "pressure": 3.05126953125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.76171875,
+    "groupTemperature": 89.90924072265625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:31.688430",
+    "weight": 2,
+    "weightFlow": 0.12513485327366705,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:31.971509",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.20556640625,
+    "pressure": 3.1787109375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.6953125,
+    "groupTemperature": 89.97776794433594,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:31.868471",
+    "weight": 2,
+    "weightFlow": 0.10987662308056345,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:32.241318",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.160888671875,
+    "pressure": 3.083984375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.6640625,
+    "groupTemperature": 89.98355102539062,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:32.168392",
+    "weight": 2.09,
+    "weightFlow": 0.12675692104766434,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:32.465901",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.125244140625,
+    "pressure": 3.021240234375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.46875,
+    "groupTemperature": 89.97344970703125,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 159
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:32.378554",
+    "weight": 2,
+    "weightFlow": 0.12903374165458997,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:32.736735",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.097412109375,
+    "pressure": 2.938232421875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.53515625,
+    "groupTemperature": 89.92059326171875,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:32.678653",
+    "weight": 2.09,
+    "weightFlow": 0.14781748311044707,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:32.961618",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.17822265625,
+    "pressure": 2.91650390625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.56640625,
+    "groupTemperature": 89.82791137695312,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:32.888423",
+    "weight": 2.09,
+    "weightFlow": 0.12923640202936598,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:33.230912",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.201171875,
+    "pressure": 3.019775390625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.73046875,
+    "groupTemperature": 89.90763854980469,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:33.188037",
+    "weight": 2.09,
+    "weightFlow": 0.1434597642241595,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:33.457023",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.20166015625,
+    "pressure": 3.053466796875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.73046875,
+    "groupTemperature": 89.93783569335938,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:33.368589",
+    "weight": 2.29,
+    "weightFlow": 0.15639180163326666,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:33.725945",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.16015625,
+    "pressure": 3.02587890625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.79296875,
+    "groupTemperature": 89.92240905761719,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:33.668705",
+    "weight": 2.2,
+    "weightFlow": 0.162972460476221,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:33.951678",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.22900390625,
+    "pressure": 3.026611328125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.828125,
+    "groupTemperature": 89.90509033203125,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:33.878294",
+    "weight": 2.29,
+    "weightFlow": 0.19757453660078853,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:34.221367",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.185546875,
+    "pressure": 3.09130859375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.76171875,
+    "groupTemperature": 89.96031188964844,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:34.179112",
+    "weight": 2.29,
+    "weightFlow": 0.18329646031740932,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:34.490999",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.14501953125,
+    "pressure": 2.971435546875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.92578125,
+    "groupTemperature": 89.91168212890625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:34.478613",
+    "weight": 2.4,
+    "weightFlow": 0.1496449018587671,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:34.716235",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.173583984375,
+    "pressure": 2.907470703125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.890625,
+    "groupTemperature": 89.91464233398438,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:34.658769",
+    "weight": 2.4,
+    "weightFlow": 0.1527627875344389,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:34.985477",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.273193359375,
+    "pressure": 3.0751953125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.92578125,
+    "groupTemperature": 89.89166259765625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:34.958076",
+    "weight": 2.5,
+    "weightFlow": 0.2049999808723535,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:35.211462",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.2236328125,
+    "pressure": 3.204345703125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.828125,
+    "groupTemperature": 89.84971618652344,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:35.168435",
+    "weight": 2.59,
+    "weightFlow": 0.2228988468490412,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:35.480511",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.1748046875,
+    "pressure": 3.154052734375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.76171875,
+    "groupTemperature": 89.929931640625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:35.468714",
+    "weight": 2.59,
+    "weightFlow": 0.2321157296947663,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:35.705661",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.135986328125,
+    "pressure": 3.08203125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.76171875,
+    "groupTemperature": 89.91423034667969,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:35.678541",
+    "weight": 2.7,
+    "weightFlow": 0.23603882488578867,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:35.976205",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.105712890625,
+    "pressure": 2.973876953125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.6328125,
+    "groupTemperature": 89.88815307617188,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:35.857819",
+    "weight": 2.59,
+    "weightFlow": 0.16592196345006247,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:36.201425",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.12744140625,
+    "pressure": 2.90576171875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.59765625,
+    "groupTemperature": 89.91015625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:36.158650",
+    "weight": 2.79,
+    "weightFlow": 0.17119619213081463,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:36.470431",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.16796875,
+    "pressure": 2.97607421875,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.73046875,
+    "groupTemperature": 89.86517333984375,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:36.458556",
+    "weight": 2.7,
+    "weightFlow": 0.14339822820400863,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:36.786119",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.21875,
+    "pressure": 3.06640625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.890625,
+    "groupTemperature": 89.92050170898438,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:36.667674",
+    "weight": 2.79,
+    "weightFlow": 0.11102698558038453,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:36.966474",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.177001953125,
+    "pressure": 3.059814453125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 85.92578125,
+    "groupTemperature": 89.85714721679688,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:36.848265",
+    "weight": 2.79,
+    "weightFlow": 0.14253554380012803,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:37.236154",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.183349609375,
+    "pressure": 2.950439453125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0859375,
+    "groupTemperature": 89.84725952148438,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:37.148382",
+    "weight": 2.9,
+    "weightFlow": 0.16448811472211364,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:37.461126",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.211181640625,
+    "pressure": 3.021484375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.0859375,
+    "groupTemperature": 89.85829162597656,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:37.448548",
+    "weight": 3,
+    "weightFlow": 0.2245062098543283,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:37.731019",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.169189453125,
+    "pressure": 3.029052734375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.12109375,
+    "groupTemperature": 89.86431884765625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:37.658268",
+    "weight": 3,
+    "weightFlow": 0.24190833868416428,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:37.955921",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.2119140625,
+    "pressure": 2.93212890625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.15234375,
+    "groupTemperature": 89.92607116699219,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:37.867978",
+    "weight": 3.09,
+    "weightFlow": 0.258813803836708,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:38.225915",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.27294921875,
+    "pressure": 3.049072265625,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.25,
+    "groupTemperature": 89.8736572265625,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:38.168289",
+    "weight": 3.09,
+    "weightFlow": 0.21107386400643535,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:38.450938",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.237060546875,
+    "pressure": 3.146484375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.28125,
+    "groupTemperature": 89.88053894042969,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:38.348264",
+    "weight": 3.2,
+    "weightFlow": 0.21258385495141896,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:38.720931",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.186279296875,
+    "pressure": 3.053955078125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.18359375,
+    "groupTemperature": 89.91850280761719,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:38.648458",
+    "weight": 3.29,
+    "weightFlow": 0.21823590028201595,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:38.992619",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.14501953125,
+    "pressure": 3.00927734375,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.4140625,
+    "groupTemperature": 89.81507873535156,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:38.949645",
+    "weight": 3.29,
+    "weightFlow": 0.21315595517694094,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:39.216143",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.11279296875,
+    "pressure": 2.970703125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.4140625,
+    "groupTemperature": 89.86149597167969,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:39.158338",
+    "weight": 3.29,
+    "weightFlow": 0.25256721350118977,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:39.485763",
+    "state": {
+     "state": "espresso",
+     "substate": "preinfusion"
+    },
+    "flow": 0.156494140625,
+    "pressure": 2.917236328125,
+    "targetFlow": 0,
+    "targetPressure": 3,
+    "mixTemperature": 86.51171875,
+    "groupTemperature": 89.794921875,
+    "targetMixTemperature": 100,
+    "targetGroupTemperature": 94,
+    "profileFrame": 1,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:39.458556",
+    "weight": 3.5,
+    "weightFlow": 0.2825369422477559,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:39.620344",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.16064453125,
+    "pressure": 2.955078125,
+    "targetFlow": 0.25,
+    "targetPressure": 0,
+    "mixTemperature": 86.54296875,
+    "groupTemperature": 89.78005981445312,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:39.549379",
+    "weight": 3.4,
+    "weightFlow": 0.28250623331815744,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:39.846187",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.187255859375,
+    "pressure": 3.001708984375,
+    "targetFlow": 0.75,
+    "targetPressure": 0,
+    "mixTemperature": 86.67578125,
+    "groupTemperature": 89.90692138671875,
+    "targetMixTemperature": 94.7578125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:39.760077",
+    "weight": 3.5,
+    "weightFlow": 0.2857433329428338,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0.042132568359375004
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:40.116577",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.404296875,
+    "pressure": 3.1494140625,
+    "targetFlow": 1.0625,
+    "targetPressure": 0,
+    "mixTemperature": 86.54296875,
+    "groupTemperature": 89.88421630859375,
+    "targetMixTemperature": 95.94140625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:40.058521",
+    "weight": 3.5,
+    "weightFlow": 0.2248943833066988,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0.151292724609375
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:40.342040",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.51611328125,
+    "pressure": 3.505126953125,
+    "targetFlow": 1.3125,
+    "targetPressure": 0,
+    "mixTemperature": 86.4453125,
+    "groupTemperature": 89.86712646484375,
+    "targetMixTemperature": 96.7734375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:40.238854",
+    "weight": 3.5,
+    "weightFlow": 0.2294913719291684,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0.267418212890625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:40.611900",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.733154296875,
+    "pressure": 3.86181640625,
+    "targetFlow": 1.4375,
+    "targetPressure": 0,
+    "mixTemperature": 86.31640625,
+    "groupTemperature": 89.90525817871094,
+    "targetMixTemperature": 97.3125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:40.538253",
+    "weight": 3.5,
+    "weightFlow": 0.16665273764289293,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0.46463671875
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:40.836803",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.932373046875,
+    "pressure": 4.543212890625,
+    "targetFlow": 1.5625,
+    "targetPressure": 0,
+    "mixTemperature": 86.37890625,
+    "groupTemperature": 89.91673278808594,
+    "targetMixTemperature": 97.74609375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:40.748583",
+    "weight": 3.7,
+    "weightFlow": 0.15091179294197127,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0.67348828125
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:41.107018",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.14306640625,
+    "pressure": 5.28369140625,
+    "targetFlow": 1.625,
+    "targetPressure": 0,
+    "mixTemperature": 86.87109375,
+    "groupTemperature": 89.81748962402344,
+    "targetMixTemperature": 98.1015625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:41.048281",
+    "weight": 3.9,
+    "weightFlow": 0.23833571969234152,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 0.9821162109375001
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:41.375119",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.308837890625,
+    "pressure": 6.022705078125,
+    "targetFlow": 1.625,
+    "targetPressure": 0,
+    "mixTemperature": 87.4296875,
+    "groupTemperature": 89.86500549316406,
+    "targetMixTemperature": 98.4140625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:41.348807",
+    "weight": 3.79,
+    "weightFlow": 0.2990256257964291,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 1.3328847656250002
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:41.601501",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.446044921875,
+    "pressure": 6.925537109375,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 87.4296875,
+    "groupTemperature": 89.94137573242188,
+    "targetMixTemperature": 98.8359375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:41.528359",
+    "weight": 4,
+    "weightFlow": 0.3872159233608918,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 1.6596909179687502
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:41.870955",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.543701171875,
+    "pressure": 7.813232421875,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 88.01953125,
+    "groupTemperature": 89.949951171875,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:41.828404",
+    "weight": 4.19,
+    "weightFlow": 0.43783410201301864,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 2.0749465332031254
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:42.096159",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.491943359375,
+    "pressure": 8.546630859375,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 88.34765625,
+    "groupTemperature": 90.03379821777344,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:42.038131",
+    "weight": 4.3,
+    "weightFlow": 0.4548072065741321,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 2.4106337890625005
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:42.365410",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.389404296875,
+    "pressure": 8.715576171875,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 88.875,
+    "groupTemperature": 90.0816650390625,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:42.338292",
+    "weight": 4.59,
+    "weightFlow": 0.627660146505261,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 2.7843835449218757
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:42.591807",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.24267578125,
+    "pressure": 8.997314453125,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 89.47265625,
+    "groupTemperature": 90.11201477050781,
+    "targetMixTemperature": 95.31640625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:42.548241",
+    "weight": 4.8,
+    "weightFlow": 0.6890843251964902,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 3.0652282714843757
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:42.861160",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.210693359375,
+    "pressure": 8.822509765625,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 90.0703125,
+    "groupTemperature": 90.14045715332031,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:42.848921",
+    "weight": 5.09,
+    "weightFlow": 0.8679118180987219,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 3.3909047851562506
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:43.086028",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.058349609375,
+    "pressure": 8.880126953125,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 90.5703125,
+    "groupTemperature": 90.19718933105469,
+    "targetMixTemperature": 95.23046875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:43.027827",
+    "weight": 5.19,
+    "weightFlow": 0.9302056958760583,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 3.6279750976562504
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:43.355595",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.0849609375,
+    "pressure": 8.8837890625,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 90.87109375,
+    "groupTemperature": 90.24111938476562,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:43.328527",
+    "weight": 5.5,
+    "weightFlow": 0.8949831620058031,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 3.9198295898437503
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:43.581577",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.04833984375,
+    "pressure": 9.016845703125,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 91.140625,
+    "groupTemperature": 90.24980163574219,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:43.538332",
+    "weight": 5.9,
+    "weightFlow": 0.9657258068339873,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 4.1557060546875
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:43.850531",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.93359375,
+    "pressure": 8.953369140625,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 91.33984375,
+    "groupTemperature": 90.32405090332031,
+    "targetMixTemperature": 95.18359375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:43.838527",
+    "weight": 6,
+    "weightFlow": 0.9958592679609533,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 4.4059091796875
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:44.120647",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.013916015625,
+    "pressure": 8.88818359375,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 91.5078125,
+    "groupTemperature": 90.30583190917969,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:44.018594",
+    "weight": 6.19,
+    "weightFlow": 1.0028090796944948,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 4.67966650390625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:44.345416",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.8984375,
+    "pressure": 9.073486328125,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 91.44140625,
+    "groupTemperature": 90.42526245117188,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:44.318549",
+    "weight": 6.5,
+    "weightFlow": 1.006808801452981,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 4.88091650390625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:44.616041",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.893310546875,
+    "pressure": 8.88818359375,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 91.67578125,
+    "groupTemperature": 90.52995300292969,
+    "targetMixTemperature": 94.4375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:44.528458",
+    "weight": 6.8,
+    "weightFlow": 0.9895893025694005,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 5.1221103515625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:44.839756",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.98095703125,
+    "pressure": 8.873291015625,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 91.9140625,
+    "groupTemperature": 90.47030639648438,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:44.828291",
+    "weight": 7.19,
+    "weightFlow": 1.0333479108025836,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 5.34086376953125
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:45.111172",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.86279296875,
+    "pressure": 9.20458984375,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 92.25,
+    "groupTemperature": 90.48919677734375,
+    "targetMixTemperature": 94.65625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:45.039239",
+    "weight": 7.3,
+    "weightFlow": 1.078726258961107,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 5.5746806640625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:45.380256",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.965087890625,
+    "pressure": 8.884765625,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 92.3828125,
+    "groupTemperature": 90.63710021972656,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:45.338116",
+    "weight": 7.59,
+    "weightFlow": 1.1291794902937617,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 5.834289306640625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:45.605979",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.831298828125,
+    "pressure": 9.1845703125,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 92.5546875,
+    "groupTemperature": 90.599365234375,
+    "targetMixTemperature": 94.79296875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:45.517972",
+    "weight": 7.8,
+    "weightFlow": 1.0961480134708972,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 6.02133154296875
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:45.830629",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.904052734375,
+    "pressure": 8.873046875,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 92.5546875,
+    "groupTemperature": 90.63265991210938,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:45.818259",
+    "weight": 8.19,
+    "weightFlow": 1.0401734437387256,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 6.22383935546875
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:46.100993",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.823974609375,
+    "pressure": 9.051025390625,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 92.3828125,
+    "groupTemperature": 90.61331176757812,
+    "targetMixTemperature": 94.9453125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:46.028314",
+    "weight": 8.5,
+    "weightFlow": 1.0460001483771753,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 6.4463125
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:46.325926",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.883056640625,
+    "pressure": 8.900146484375,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 92.11328125,
+    "groupTemperature": 90.67982482910156,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:46.207994",
+    "weight": 8.69,
+    "weightFlow": 1.0701362464855109,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 6.6441171875
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:46.596540",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.937255859375,
+    "pressure": 8.949462890625,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 91.9140625,
+    "groupTemperature": 90.72628784179688,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:46.508882",
+    "weight": 9,
+    "weightFlow": 1.1799156014122796,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 6.89717626953125
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:46.867222",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.828369140625,
+    "pressure": 9.0517578125,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 91.54296875,
+    "groupTemperature": 90.77003479003906,
+    "targetMixTemperature": 95.37109375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:46.808515",
+    "weight": 9.3,
+    "weightFlow": 1.1629357975496215,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 7.1208359375
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:47.090987",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.951904296875,
+    "pressure": 8.835205078125,
+    "targetFlow": 1.6875,
+    "targetPressure": 0,
+    "mixTemperature": 90.97265625,
+    "groupTemperature": 90.82676696777344,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:47.019132",
+    "weight": 9.8,
+    "weightFlow": 1.2213199443109857,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 7.333110595703125
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:47.361231",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.846435546875,
+    "pressure": 9.193603515625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.8046875,
+    "groupTemperature": 90.89105224609375,
+    "targetMixTemperature": 95.3984375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:47.318548",
+    "weight": 10.1,
+    "weightFlow": 1.278471642629111,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 7.561648193359375
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:47.586236",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.91552734375,
+    "pressure": 8.80810546875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.671875,
+    "groupTemperature": 90.89028930664062,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:47.529690",
+    "weight": 10.19,
+    "weightFlow": 1.229780329388214,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 7.767641845703125
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:47.857284",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.95361328125,
+    "pressure": 9.032470703125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.671875,
+    "groupTemperature": 91.01478576660156,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:47.828533",
+    "weight": 10.5,
+    "weightFlow": 1.1577588377399084,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 8.026071044921874
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:48.080985",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.855712890625,
+    "pressure": 8.988037109375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.60546875,
+    "groupTemperature": 90.96435546875,
+    "targetMixTemperature": 95.234375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:48.007878",
+    "weight": 10.69,
+    "weightFlow": 1.0439227940261069,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 8.216895019531249
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:48.351259",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.937255859375,
+    "pressure": 8.845703125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.63671875,
+    "groupTemperature": 91.04670715332031,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:48.308484",
+    "weight": 11.1,
+    "weightFlow": 1.0206320672577902,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 8.469954101562498
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:48.575988",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.9189453125,
+    "pressure": 8.977294921875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.5703125,
+    "groupTemperature": 91.11282348632812,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:48.518508",
+    "weight": 11.3,
+    "weightFlow": 1.0454053822599185,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 8.675797851562498
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:48.844987",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.87158203125,
+    "pressure": 8.902587890625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.3359375,
+    "groupTemperature": 91.15139770507812,
+    "targetMixTemperature": 95.2734375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:48.817967",
+    "weight": 11.69,
+    "weightFlow": 1.1443266728819894,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 8.909381835937499
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:49.116139",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.949462890625,
+    "pressure": 8.84228515625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.0703125,
+    "groupTemperature": 91.23109436035156,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:48.997367",
+    "weight": 11.89,
+    "weightFlow": 1.2022410057918484,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 9.166686279296874
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:49.341667",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.89599609375,
+    "pressure": 8.9443359375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 89.8046875,
+    "groupTemperature": 91.36885070800781,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:49.298011",
+    "weight": 12.3,
+    "weightFlow": 1.1912597187444203,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 9.368285400390624
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:49.610120",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.87109375,
+    "pressure": 8.786865234375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 89.73828125,
+    "groupTemperature": 91.41203308105469,
+    "targetMixTemperature": 95.16015625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:49.598557",
+    "weight": 12.6,
+    "weightFlow": 1.2136303774435138,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 9.601738525390624
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:49.835490",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.017822265625,
+    "pressure": 8.84765625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 89.8359375,
+    "groupTemperature": 91.39082336425781,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:49.808130",
+    "weight": 12.89,
+    "weightFlow": 1.240773747141189,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 9.83074853515625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:50.106148",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.861328125,
+    "pressure": 9.2353515625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 89.97265625,
+    "groupTemperature": 91.55464172363281,
+    "targetMixTemperature": 95,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:50.018549",
+    "weight": 13.19,
+    "weightFlow": 1.2530450176880714,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 10.06330712890625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:50.330838",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.966796875,
+    "pressure": 8.69775390625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.0390625,
+    "groupTemperature": 91.5496826171875,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:50.318261",
+    "weight": 13.5,
+    "weightFlow": 1.2499886996333403,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 10.27986962890625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:50.600944",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.966552734375,
+    "pressure": 9.02099609375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 91.56768798828125,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:50.497739",
+    "weight": 13.8,
+    "weightFlow": 1.2573729181450704,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 10.5408388671875
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:50.825841",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.881103515625,
+    "pressure": 8.97705078125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.83984375,
+    "groupTemperature": 91.52220153808594,
+    "targetMixTemperature": 94.8125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:50.798219",
+    "weight": 14.1,
+    "weightFlow": 1.2400307808022117,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 10.738206054687499
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:51.096150",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.04345703125,
+    "pressure": 8.7822265625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.9375,
+    "groupTemperature": 91.5504150390625,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:51.008261",
+    "weight": 14.39,
+    "weightFlow": 1.2597607493144651,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 11.019939453125
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:51.369968",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.92431640625,
+    "pressure": 9.191650390625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.9375,
+    "groupTemperature": 91.61740112304688,
+    "targetMixTemperature": 95.13671875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:51.308152",
+    "weight": 14.69,
+    "weightFlow": 1.224804018590175,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 11.27227783203125
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:51.590716",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.99365234375,
+    "pressure": 8.7216796875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.76953125,
+    "groupTemperature": 91.66786193847656,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:51.488567",
+    "weight": 14.89,
+    "weightFlow": 1.1873399515810183,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 11.49088134765625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:51.861241",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.0302734375,
+    "pressure": 8.799560546875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 91.77021789550781,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:51.787952",
+    "weight": 15.3,
+    "weightFlow": 1.1885143421265092,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 11.76905517578125
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:52.086133",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.950439453125,
+    "pressure": 8.9091796875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.26953125,
+    "groupTemperature": 91.73753356933594,
+    "targetMixTemperature": 94.49609375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:51.997844",
+    "weight": 15.6,
+    "weightFlow": 1.1683975072319526,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 11.98195361328125
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:52.355847",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.0361328125,
+    "pressure": 8.866455078125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.00390625,
+    "groupTemperature": 91.84048461914062,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:52.297856",
+    "weight": 15.89,
+    "weightFlow": 1.2183428154864722,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 12.26067333984375
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:52.582091",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.039306640625,
+    "pressure": 9.007080078125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 89.9375,
+    "groupTemperature": 91.86410522460938,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:52.508196",
+    "weight": 16.2,
+    "weightFlow": 1.2556335017952027,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 12.495556640625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:52.850967",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.9462890625,
+    "pressure": 8.85400390625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 89.97265625,
+    "groupTemperature": 91.91619873046875,
+    "targetMixTemperature": 95.296875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:52.808408",
+    "weight": 16.6,
+    "weightFlow": 1.2660861995369896,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 12.749162109375
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:53.075488",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.99560546875,
+    "pressure": 8.828125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.10546875,
+    "groupTemperature": 91.90638732910156,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:52.988666",
+    "weight": 16.79,
+    "weightFlow": 1.2852077690651098,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 12.972177734375
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:53.346765",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.004150390625,
+    "pressure": 8.887451171875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.4375,
+    "groupTemperature": 91.94650268554688,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:53.287989",
+    "weight": 17.2,
+    "weightFlow": 1.2914590241955968,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 13.244302490234375
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:53.616424",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.90966796875,
+    "pressure": 8.983154296875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.5703125,
+    "groupTemperature": 92.02958679199219,
+    "targetMixTemperature": 95.04296875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:53.497728",
+    "weight": 17.5,
+    "weightFlow": 1.313221311527506,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 13.489003173828126
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:53.844248",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.012451171875,
+    "pressure": 8.73974609375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.63671875,
+    "groupTemperature": 91.97824096679688,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:53.798071",
+    "weight": 17.89,
+    "weightFlow": 1.3204738945405077,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 13.71882958984375
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:54.110523",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.014892578125,
+    "pressure": 8.854248046875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.73828125,
+    "groupTemperature": 92.05325317382812,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:54.098083",
+    "weight": 18.29,
+    "weightFlow": 1.3084549084868249,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 13.988791015625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:54.336501",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.01123046875,
+    "pressure": 8.78076171875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.3359375,
+    "groupTemperature": 92.14805603027344,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 158
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:54.278749",
+    "weight": 18.5,
+    "weightFlow": 1.315880006314695,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 14.21631787109375
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:54.605836",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.978271484375,
+    "pressure": 8.772705078125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.3046875,
+    "groupTemperature": 92.1488037109375,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:54.578212",
+    "weight": 18.89,
+    "weightFlow": 1.3129436827161165,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 14.479472900390626
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:54.832495",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.978759765625,
+    "pressure": 8.851318359375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.23828125,
+    "groupTemperature": 92.202880859375,
+    "targetMixTemperature": 95.05859375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:54.788516",
+    "weight": 19.2,
+    "weightFlow": 1.3073520376382786,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 14.700672607421875
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:55.100310",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.04638671875,
+    "pressure": 8.84619140625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.00390625,
+    "groupTemperature": 92.21769714355469,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:55.088057",
+    "weight": 19.39,
+    "weightFlow": 1.2396376951472239,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 14.980057861328126
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:55.326925",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.98974609375,
+    "pressure": 8.998779296875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.23828125,
+    "groupTemperature": 92.2938232421875,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:55.297862",
+    "weight": 19.79,
+    "weightFlow": 1.1997062450537623,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 15.203740478515625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:55.596257",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.0166015625,
+    "pressure": 8.78369140625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.10546875,
+    "groupTemperature": 92.25653076171875,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:55.478783",
+    "weight": 20,
+    "weightFlow": 1.2103417424724219,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 15.477206298828126
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:55.865904",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.03076171875,
+    "pressure": 8.838623046875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.26953125,
+    "groupTemperature": 92.260009765625,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:55.778048",
+    "weight": 20.39,
+    "weightFlow": 1.2266464082670976,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 15.754481201171876
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:56.090512",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.993896484375,
+    "pressure": 8.720458984375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.63671875,
+    "groupTemperature": 92.29647827148438,
+    "targetMixTemperature": 94.50390625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:56.078152",
+    "weight": 20.79,
+    "weightFlow": 1.2669907256616626,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 15.977114013671876
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:56.360825",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.98974609375,
+    "pressure": 8.896240234375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 90.83984375,
+    "groupTemperature": 92.32330322265625,
+    "targetMixTemperature": 94.8984375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:56.287940",
+    "weight": 21.1,
+    "weightFlow": 1.3078425824733668,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 16.244345458984377
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:56.586337",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.056396484375,
+    "pressure": 8.7744140625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 91.171875,
+    "groupTemperature": 92.30900573730469,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:56.470658",
+    "weight": 21.29,
+    "weightFlow": 1.3189431436511163,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 16.48203466796875
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:56.856037",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.998779296875,
+    "pressure": 8.923828125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 91.4765625,
+    "groupTemperature": 92.35316467285156,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:56.767989",
+    "weight": 21.7,
+    "weightFlow": 1.3080937390936769,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 16.750706298828128
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:57.080984",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.007568359375,
+    "pressure": 8.82080078125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 91.9453125,
+    "groupTemperature": 92.41850280761719,
+    "targetMixTemperature": 94.4921875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:56.977698",
+    "weight": 22,
+    "weightFlow": 1.3357503364370569,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 16.97640161132813
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:57.350915",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.0390625,
+    "pressure": 8.776611328125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.3828125,
+    "groupTemperature": 92.43923950195312,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:57.278024",
+    "weight": 22.39,
+    "weightFlow": 1.3581459429692102,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 17.25590942382813
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:57.576054",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.04248046875,
+    "pressure": 8.914794921875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.859375,
+    "groupTemperature": 92.4232177734375,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:57.488049",
+    "weight": 22.7,
+    "weightFlow": 1.3699243870439464,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 17.49046752929688
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:57.846314",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 0.998046875,
+    "pressure": 8.869384765625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.09765625,
+    "groupTemperature": 92.42845153808594,
+    "targetMixTemperature": 94.28515625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:57.788140",
+    "weight": 23.1,
+    "weightFlow": 1.4185091041520423,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 17.759940185546878
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:58.116043",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.12158203125,
+    "pressure": 8.725341796875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.9921875,
+    "groupTemperature": 92.45530700683594,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:58.088995",
+    "weight": 23.5,
+    "weightFlow": 1.4281339470587704,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 18.06164575195313
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:58.340884",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.05517578125,
+    "pressure": 9.023193359375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.72265625,
+    "groupTemperature": 92.49851989746094,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:58.267439",
+    "weight": 23.79,
+    "weightFlow": 1.4253832193853462,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 18.29800512695313
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:58.610694",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.001220703125,
+    "pressure": 8.712158203125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.3828125,
+    "groupTemperature": 92.4788818359375,
+    "targetMixTemperature": 94.67578125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:58.568393",
+    "weight": 24.2,
+    "weightFlow": 1.411181757899906,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 18.567333496093752
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:58.835893",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.086669921875,
+    "pressure": 8.7841796875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.046875,
+    "groupTemperature": 92.46070861816406,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:58.777620",
+    "weight": 24.39,
+    "weightFlow": 1.356662381979169,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 18.81183422851563
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:59.106206",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.088134765625,
+    "pressure": 8.957763671875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 91.67578125,
+    "groupTemperature": 92.49653625488281,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:59.078312",
+    "weight": 24.79,
+    "weightFlow": 1.3040481960509718,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 19.10563061523438
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:59.331305",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.02099609375,
+    "pressure": 8.85546875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 91.57421875,
+    "groupTemperature": 92.54786682128906,
+    "targetMixTemperature": 94.9453125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:59.257878",
+    "weight": 25.1,
+    "weightFlow": 1.3047650771272759,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 19.335354736328128
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:59.601033",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.094482421875,
+    "pressure": 8.73828125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 91.67578125,
+    "groupTemperature": 92.55787658691406,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:59.558411",
+    "weight": 25.5,
+    "weightFlow": 1.3254765983045007,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 19.629770507812502
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:57:59.870484",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.08349609375,
+    "pressure": 8.705810546875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 91.98046875,
+    "groupTemperature": 92.6153564453125,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:57:59.858166",
+    "weight": 25.89,
+    "weightFlow": 1.3908385063317543,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 19.921230957031252
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:00.095974",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.137451171875,
+    "pressure": 8.602294921875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.3515625,
+    "groupTemperature": 92.63705444335938,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:00.068644",
+    "weight": 26.2,
+    "weightFlow": 1.4273257893563323,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 20.177157470703126
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:00.365763",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.069580078125,
+    "pressure": 8.84423828125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.484375,
+    "groupTemperature": 92.63169860839844,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:00.278087",
+    "weight": 26.5,
+    "weightFlow": 1.4128834180839498,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 20.46487451171875
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:00.590605",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.027099609375,
+    "pressure": 8.710693359375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.5859375,
+    "groupTemperature": 92.69841003417969,
+    "targetMixTemperature": 94.50390625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:00.579372",
+    "weight": 26.89,
+    "weightFlow": 1.4001985974249562,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 20.69494482421875
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:00.860498",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.104248046875,
+    "pressure": 8.633544921875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.82421875,
+    "groupTemperature": 92.59706115722656,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:00.808579",
+    "weight": 27.2,
+    "weightFlow": 1.397048693497026,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 20.991987548828128
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:01.085504",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.15380859375,
+    "pressure": 8.728759765625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.0625,
+    "groupTemperature": 92.69551086425781,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:01.056991",
+    "weight": 27.7,
+    "weightFlow": 1.435611599871795,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 21.25159448242188
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:01.400714",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.11181640625,
+    "pressure": 8.732177734375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.3671875,
+    "groupTemperature": 92.87327575683594,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:01.358018",
+    "weight": 28.1,
+    "weightFlow": 1.5241352057403055,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 21.601816650390628
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:01.580041",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.093994140625,
+    "pressure": 8.685791015625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.50390625,
+    "groupTemperature": 92.83763122558594,
+    "targetMixTemperature": 94.2890625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:01.568922",
+    "weight": 28.39,
+    "weightFlow": 1.534334310652698,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 21.797641601562503
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:01.850968",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.18017578125,
+    "pressure": 8.644775390625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.50390625,
+    "groupTemperature": 92.83555603027344,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:01.747945",
+    "weight": 28.7,
+    "weightFlow": 1.5371106400446592,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 22.1162890625
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:02.075226",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.13134765625,
+    "pressure": 8.85107421875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.50390625,
+    "groupTemperature": 92.857666015625,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:02.048343",
+    "weight": 29.1,
+    "weightFlow": 1.5086365477123307,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 22.369710937500003
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:02.345613",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.09765625,
+    "pressure": 8.757080078125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.50390625,
+    "groupTemperature": 92.8829345703125,
+    "targetMixTemperature": 94.34375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:02.257772",
+    "weight": 29.39,
+    "weightFlow": 1.4614247887611596,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 22.666078125000002
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:02.570091",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.197021484375,
+    "pressure": 8.680908203125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.46875,
+    "groupTemperature": 92.89949035644531,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:02.557577",
+    "weight": 29.7,
+    "weightFlow": 1.4030614853426582,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 22.9342109375
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:02.886148",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.140380859375,
+    "pressure": 8.851318359375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.67578125,
+    "groupTemperature": 92.92765808105469,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:02.858196",
+    "weight": 30.2,
+    "weightFlow": 1.3470100659428046,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 23.294571289062503
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:03.111294",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.093994140625,
+    "pressure": 8.93408203125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.7421875,
+    "groupTemperature": 92.95460510253906,
+    "targetMixTemperature": 94.14453125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:03.068620",
+    "weight": 30.5,
+    "weightFlow": 1.3458744567779466,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 23.54071997070313
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:03.336096",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.1328125,
+    "pressure": 8.823486328125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.7421875,
+    "groupTemperature": 93.01899719238281,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:03.247440",
+    "weight": 30.79,
+    "weightFlow": 1.34978147651645,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 23.79446997070313
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:03.606449",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.17138671875,
+    "pressure": 8.73681640625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.8125,
+    "groupTemperature": 93.01123046875,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:03.548110",
+    "weight": 31.2,
+    "weightFlow": 1.3668888610637475,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 24.11074438476563
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:03.830449",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.052001953125,
+    "pressure": 9.041748046875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.8125,
+    "groupTemperature": 93.09454345703125,
+    "targetMixTemperature": 94.0703125,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:03.758960",
+    "weight": 31.5,
+    "weightFlow": 1.4152221869873365,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 24.34639282226563
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:04.100650",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.11474609375,
+    "pressure": 8.626220703125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.70703125,
+    "groupTemperature": 93.12968444824219,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:04.058724",
+    "weight": 31.89,
+    "weightFlow": 1.4318135323806893,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 24.647374267578133
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:04.325663",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.140869140625,
+    "pressure": 8.617431640625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.3671875,
+    "groupTemperature": 93.1859130859375,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:04.237544",
+    "weight": 32.29,
+    "weightFlow": 1.4362420406088017,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 24.90406982421876
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:04.595472",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.17822265625,
+    "pressure": 8.63330078125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.12890625,
+    "groupTemperature": 93.21736145019531,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:04.537874",
+    "weight": 32.7,
+    "weightFlow": 1.4796887397778327,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 25.22101171875001
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:04.820693",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.12158203125,
+    "pressure": 8.778564453125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 93.19921875,
+    "groupTemperature": 93.26846313476562,
+    "targetMixTemperature": 94.25390625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:04.748725",
+    "weight": 32.9,
+    "weightFlow": 1.4733003220345429,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 25.473367675781258
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:05.091137",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.106689453125,
+    "pressure": 8.775390625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.9609375,
+    "groupTemperature": 93.2598876953125,
+    "targetMixTemperature": 94.5234375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:05.048064",
+    "weight": 33.4,
+    "weightFlow": 1.461377348321474,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 25.77217382812501
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:05.359878",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.134521484375,
+    "pressure": 8.6796875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.9921875,
+    "groupTemperature": 93.30555725097656,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:05.347617",
+    "weight": 33.79,
+    "weightFlow": 1.4626553854652442,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 26.076225585937507
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:05.585935",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.158203125,
+    "pressure": 8.666748046875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.9609375,
+    "groupTemperature": 93.34555053710938,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:05.558588",
+    "weight": 34.09,
+    "weightFlow": 1.4415513868309273,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 26.337979492187507
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:05.855640",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.1015625,
+    "pressure": 8.79296875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.9609375,
+    "groupTemperature": 93.31471252441406,
+    "targetMixTemperature": 94.2265625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:05.737302",
+    "weight": 34.4,
+    "weightFlow": 1.4549069794853522,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 26.634299804687508
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:06.080444",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.17578125,
+    "pressure": 8.68505859375,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.890625,
+    "groupTemperature": 93.31857299804688,
+    "targetMixTemperature": 94.4921875,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:06.038673",
+    "weight": 34.79,
+    "weightFlow": 1.4875122152652138,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 26.897674804687508
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:06.350233",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.2021484375,
+    "pressure": 8.719482421875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.859375,
+    "groupTemperature": 93.35520935058594,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:06.337851",
+    "weight": 35.09,
+    "weightFlow": 1.3853561464874888,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 27.221052734375007
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:06.574640",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.178466796875,
+    "pressure": 8.692626953125,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.62109375,
+    "groupTemperature": 93.39598083496094,
+    "targetMixTemperature": 94,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:06.549077",
+    "weight": 35.5,
+    "weightFlow": 1.361913008813214,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 27.48502929687501
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:06.846084",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.123291015625,
+    "pressure": 8.70654296875,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.65625,
+    "groupTemperature": 93.417236328125,
+    "targetMixTemperature": 94.44140625,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:06.727581",
+    "weight": 35.79,
+    "weightFlow": 1.361564480821189,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 27.789441162109384
+  },
+  {
+   "machine": {
+    "timestamp": "2026-09-28T04:58:07.070574",
+    "state": {
+     "state": "espresso",
+     "substate": "pouring"
+    },
+    "flow": 1.16455078125,
+    "pressure": 8.6806640625,
+    "targetFlow": 1.75,
+    "targetPressure": 0,
+    "mixTemperature": 92.62109375,
+    "groupTemperature": 93.37025451660156,
+    "targetMixTemperature": 94.46484375,
+    "targetGroupTemperature": 94,
+    "profileFrame": 2,
+    "steamTemperature": 157
+   },
+   "scale": {
+    "timestamp": "2026-09-28T04:58:07.028090",
+    "weight": 36.2,
+    "weightFlow": 1.3525941212981387,
+    "battery": 60,
+    "timerValue": null
+   },
+   "volume": 28.050300537109383
+  }
+ ],
+ "workflow": {
+  "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+  "name": "Bean 7",
+  "description": "(note)",
+  "profile": {
+   "version": "2",
+   "title": "D-Flow",
+   "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+   "author": "Damian.",
+   "beverage_type": "espresso",
+   "steps": [
+    {
+     "name": "Filling",
+     "pump": "pressure",
+     "transition": "fast",
+     "exit": {
+      "type": "pressure",
+      "condition": "over",
+      "value": 1.5
+     },
+     "volume": 100,
+     "seconds": 25,
+     "weight": 5,
+     "temperature": 94,
+     "sensor": "coffee",
+     "pressure": 3,
+     "limiter": null
+    },
+    {
+     "name": "Infusing",
+     "pump": "pressure",
+     "transition": "fast",
+     "exit": null,
+     "volume": 100,
+     "seconds": 60,
+     "weight": 4,
+     "temperature": 94,
+     "sensor": "coffee",
+     "pressure": 3,
+     "limiter": null
+    },
+    {
+     "name": "Pouring",
+     "pump": "flow",
+     "transition": "fast",
+     "exit": null,
+     "volume": 0,
+     "seconds": 127,
+     "weight": 0,
+     "temperature": 94,
+     "sensor": "coffee",
+     "flow": 1.7,
+     "limiter": {
+      "value": 8.5,
+      "range": 0.2
+     }
+    }
+   ],
+   "target_volume": 0,
+   "target_weight": 38,
+   "target_volume_count_start": 2,
+   "tank_temperature": 0
+  },
+  "context": {
+   "targetDoseWeight": 18,
+   "targetYield": 38,
+   "grinderModel": "Timemore Sculpture 078s",
+   "grinderSetting": "3.60",
+   "beanBatchId": "83f9ca45-27a6-4ceb-8fd3-012dd1eac382",
+   "coffeeName": "Bean 6",
+   "coffeeRoaster": "Roaster 2",
+   "extras": {
+    "basketId": null,
+    "basketName": null,
+    "rpm": null,
+    "note": null
+   }
+  },
+  "steamSettings": {
+   "targetTemperature": 160,
+   "duration": 120,
+   "flow": 0,
+   "stopAtTemperature": 0
+  },
+  "hotWaterData": {
+   "targetTemperature": 95,
+   "duration": 30,
+   "volume": 100,
+   "flow": 10
+  },
+  "rinseData": {
+   "targetTemperature": 90,
+   "duration": 10,
+   "flow": 4
+  },
+  "machine": {
+   "provenanceStatus": "captured",
+   "flowCalibration": 0.85,
+   "model": "DE1Pro",
+   "firmwareVersion": "1358"
+  }
+ },
+ "annotations": {
+  "actualDoseWeight": 18,
+  "actualYield": 37.8,
+  "extras": {
+   "visualizer": {
+    "roast_level": null,
+    "roast_date": null,
+    "bean_notes": null,
+    "private_notes": null,
+    "tags": [],
+    "fragrance": null,
+    "aroma": null,
+    "flavor": null,
+    "aftertaste": null,
+    "acidity": null,
+    "bitterness": null,
+    "sweetness": null,
+    "mouthfeel": null
+   },
+   "uploaded_to_decent": 1790573892,
+   "decent_upload_rejected": null
+  }
+ },
+ "stopReason": "targetWeight",
+ "metadata": {
+  "visualizer": {
+   "roast_level": null,
+   "roast_date": null,
+   "bean_notes": null,
+   "private_notes": null,
+   "tags": [],
+   "fragrance": null,
+   "aroma": null,
+   "flavor": null,
+   "aftertaste": null,
+   "acidity": null,
+   "bitterness": null,
+   "sweetness": null,
+   "mouthfeel": null
+  },
+  "uploaded_to_decent": 1790573892,
+  "decent_upload_rejected": null
+ }
+}

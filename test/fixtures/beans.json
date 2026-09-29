@@ -1,0 +1,231 @@
+[
+ {
+  "id": "2dbcd61f-2e61-4f8a-8f40-c271908d3d88",
+  "roaster": "Roaster 1",
+  "name": "Bean 2",
+  "species": "60% Arabica, 40% Robusta",
+  "decaf": false,
+  "country": "Brasilien, Kolumbien, Indien",
+  "producer": "Producer 1",
+  "processing": "Honey (BR) + Washed (CO, IN)",
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-09-24T19:10:04.018547",
+  "updatedAt": "2026-09-29T12:23:12.091652"
+ },
+ {
+  "id": "caa2000e-b1bd-4459-8762-ce6251226ba3",
+  "roaster": "Roaster 2",
+  "name": "Bean 6",
+  "species": "100% Arabica Blend",
+  "decaf": true,
+  "country": "Brasilien, Äthiopien, Kolumbien",
+  "region": "Region 1",
+  "producer": "Producer 2",
+  "variety": [
+   "Yellow Bourbon",
+   "Landrasse (Äthiopien)",
+   "Castillo",
+   "Caturra",
+   "Colombia",
+   "Typica"
+  ],
+  "altitude": [
+   1000,
+   1950
+  ],
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-09-25T19:55:10.850961",
+  "updatedAt": "2026-09-28T21:08:16.641874"
+ },
+ {
+  "id": "995f7078-7bfd-4987-8d1f-4456dd6a5458",
+  "roaster": "Roaster 2",
+  "name": "Bean 4",
+  "species": "100% Arabica",
+  "decaf": false,
+  "country": "Kolumbien, Peru, Honduras, Äthiopien",
+  "region": "Region 2",
+  "producer": "Producer 3",
+  "variety": [
+   "Castillo",
+   "Caturra",
+   "Colombia",
+   "Typica",
+   "Ihcafe 90",
+   "Catuai",
+   "Landrasse (Äthiopien)"
+  ],
+  "altitude": [
+   1000,
+   1950
+  ],
+  "processing": "Washed",
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-09-26T08:41:27.127273",
+  "updatedAt": "2026-09-28T20:47:16.969651"
+ },
+ {
+  "id": "6c10203a-ae66-4237-8732-0a75cc0adfec",
+  "roaster": "Roaster 3",
+  "name": "Bean 8",
+  "species": "100% Arabica",
+  "decaf": false,
+  "country": "Peru",
+  "region": "Region 3",
+  "producer": "Producer 4",
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-08-30T17:39:26.531332",
+  "updatedAt": "2026-09-26T09:02:08.402641"
+ },
+ {
+  "id": "c0753428-51a6-4873-8a19-299a2524a3f6",
+  "roaster": "Roaster 6",
+  "name": "Bean 12",
+  "species": "Arabica",
+  "decaf": true,
+  "country": "Kolumbien",
+  "region": "Region 4",
+  "variety": [
+   "Castillo",
+   "Caturra",
+   "Colombia"
+  ],
+  "altitude": [
+   1400,
+   2000
+  ],
+  "processing": "Washed",
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-09-08T19:21:07.549765",
+  "updatedAt": "2026-09-26T09:01:58.052667"
+ },
+ {
+  "id": "79273a4e-42ce-4277-80d3-dc71879d5336",
+  "roaster": "Roaster 7",
+  "name": "Bean 13",
+  "species": "100% Arabica",
+  "decaf": false,
+  "country": "Indonesien",
+  "region": "Region 5",
+  "processing": "Mixed",
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-09-16T06:08:12.478067",
+  "updatedAt": "2026-09-26T09:01:47.222458"
+ },
+ {
+  "id": "fb9a1576-710c-47dc-8a44-dc067b1cd220",
+  "roaster": "Roaster 4",
+  "name": "Bean 9",
+  "species": "Arabica",
+  "decaf": false,
+  "decafProcess": "Co2",
+  "country": "Indonesien",
+  "region": "Region 6",
+  "producer": "Producer 5",
+  "processing": "Honey",
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-09-06T18:52:07.490516",
+  "updatedAt": "2026-09-26T09:01:35.289635"
+ },
+ {
+  "id": "fc8c9280-c51a-4a29-8ebc-f41c9a21cfe8",
+  "roaster": "Roaster 4",
+  "name": "Bean 14",
+  "species": "Robusta",
+  "decaf": false,
+  "country": "Indonesien",
+  "region": "Region 6",
+  "producer": "Producer 5",
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-09-19T11:10:52.329306",
+  "updatedAt": "2026-09-26T09:01:28.414780"
+ },
+ {
+  "id": "b5d6d1ae-2e37-4b87-8556-44c4b0e544bc",
+  "roaster": "Roaster 2",
+  "name": "Bean 13",
+  "species": "100% Arabica",
+  "decaf": false,
+  "country": "Brasilien, Honduras, Äthiopien, DR Kongo",
+  "region": "Region 7",
+  "producer": "Producer 6",
+  "variety": [
+   "Yellow Bourbon",
+   "Parainema",
+   "Landrasse (Äthiopien)",
+   "Bourbon"
+  ],
+  "altitude": [
+   1050,
+   2000
+  ],
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-09-24T21:09:52.661048",
+  "updatedAt": "2026-09-26T09:01:07.461786"
+ },
+ {
+  "id": "57071cb3-7caa-4938-8b34-a3c92cc39524",
+  "roaster": "Roaster 2",
+  "name": "Bean 15",
+  "species": "75% Arabica, 25% Robusta, Blend",
+  "decaf": false,
+  "country": "Brasilien, Äthiopien, Indien",
+  "region": "Region 8",
+  "producer": "Producer 7",
+  "variety": [
+   "Yellow Bourbon",
+   "Yellow Catuai",
+   "Acaia",
+   "Mundo Novo",
+   "Landrasse (Äthiopien)",
+   "Robusta"
+  ],
+  "altitude": [
+   1000,
+   1950
+  ],
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-09-25T19:58:09.829929",
+  "updatedAt": "2026-09-26T09:00:41.787891"
+ },
+ {
+  "id": "91820ff5-de82-46bc-8e4e-c8649d9f6e14",
+  "roaster": "Roaster 5",
+  "name": "Bean 11",
+  "decaf": false,
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-08-30T17:39:26.531391",
+  "updatedAt": "2026-09-16T13:54:44.108778"
+ },
+ {
+  "id": "e3f4fe0c-f7f6-4856-8743-fce5989cf556",
+  "roaster": "Roaster 5",
+  "name": "Bean 16",
+  "decaf": false,
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-08-30T17:39:26.531643",
+  "updatedAt": "2026-08-30T17:39:26.531643"
+ },
+ {
+  "id": "f6bd76f4-adb5-45da-8a6d-7f6b3bc73b3b",
+  "roaster": "Roaster 8",
+  "name": "Bean 16",
+  "decaf": false,
+  "notes": "(note)",
+  "archived": false,
+  "createdAt": "2026-08-30T17:39:26.531141",
+  "updatedAt": "2026-08-30T17:39:26.531141"
+ }
+]

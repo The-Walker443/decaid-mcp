@@ -1,0 +1,3031 @@
+{
+ "items": [
+  {
+   "id": "32c97e39-86dc-4353-8469-afa74fc78b13",
+   "timestamp": "2026-09-06T12:25:11.375717",
+   "createdAt": "2026-09-06T10:25:55.886633Z",
+   "updatedAt": "2026-09-06T10:33:39.709582Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "2.6",
+     "beanBatchId": "2309eef8-68a2-4f6b-8510-84a4b7834e36",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g",
+      "rpm": 1000
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 240,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1358"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 36,
+    "enjoyment": 50,
+    "extras": {
+     "uploaded_to_decent": 1788690359,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788690359,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "560391e1-85e8-49f0-8a73-ea728019f21c",
+   "timestamp": "2026-09-06T06:20:04.257627",
+   "createdAt": "2026-09-06T04:20:28.690644Z",
+   "updatedAt": "2026-09-06T04:22:30.039542Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "4.00",
+     "beanBatchId": "2309eef8-68a2-4f6b-8510-84a4b7834e36",
+     "coffeeName": "Bean 11",
+     "coffeeRoaster": "Roaster 5",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g",
+      "rpm": 1000
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1358"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 36,
+    "extras": {
+     "uploaded_to_decent": 1788668432,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788668432,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "6a372d73-81b1-465f-8a9a-ef00bde6800a",
+   "timestamp": "2026-09-06T06:16:06.614786",
+   "createdAt": "2026-09-06T04:16:33.885348Z",
+   "updatedAt": "2026-09-06T04:17:28.715895Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "4.00",
+     "beanBatchId": "2309eef8-68a2-4f6b-8510-84a4b7834e36",
+     "coffeeName": "Bean 11",
+     "coffeeRoaster": "Roaster 5",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g",
+      "rpm": 1000
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1358"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.4,
+    "extras": {
+     "uploaded_to_decent": 1788668197,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788668197,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "b2a35f64-c919-4ea0-81ea-0134956ab39d",
+   "timestamp": "2026-09-05T11:01:07.127893",
+   "createdAt": "2026-09-05T09:01:34.425441Z",
+   "updatedAt": "2026-09-05T09:08:48.407240Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "4,2",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 11",
+     "coffeeRoaster": "Roaster 5",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1358"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.9,
+    "extras": {
+     "uploaded_to_decent": 1788598897,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788598897,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "acb52abc-baef-407c-83bb-baf37df4f7c3",
+   "timestamp": "2026-09-05T10:57:03.187435",
+   "createdAt": "2026-09-05T08:57:28.925215Z",
+   "updatedAt": "2026-09-05T09:08:47.867087Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "4,2",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 11",
+     "coffeeRoaster": "Roaster 5",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1358"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.7,
+    "extras": {
+     "uploaded_to_decent": 1788598651,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788598651,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "ebe1f2be-5360-4490-8c53-590eb299dfe4",
+   "timestamp": "2026-09-05T07:51:52.966403",
+   "createdAt": "2026-09-05T05:52:19.058016Z",
+   "updatedAt": "2026-09-05T06:03:11.978612Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "4,2",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 11",
+     "coffeeRoaster": "Roaster 5",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1358"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.8,
+    "extras": {
+     "uploaded_to_decent": 1788587541,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788587541,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "c13990bd-a6e6-411a-8f27-f3f2e2b71a13",
+   "timestamp": "2026-09-05T07:44:08.212360",
+   "createdAt": "2026-09-05T05:44:35.711950Z",
+   "updatedAt": "2026-09-05T05:58:10.692301Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "4,2",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 11",
+     "coffeeRoaster": "Roaster 5",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1358"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 41.7,
+    "extras": {
+     "uploaded_to_decent": 1788587081,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788587081,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "ae4675eb-759e-43ec-88e6-83eaf3078b6f",
+   "timestamp": "2026-09-04T13:29:08.706949",
+   "createdAt": "2026-09-04T11:29:31.970069Z",
+   "updatedAt": "2026-09-04T11:34:39.896865Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 18,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 18,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "2.60",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1358"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 18,
+    "extras": {
+     "uploaded_to_decent": 1788521376,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788521376,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "7ae41c20-ec36-4845-8f94-3a647f203b8c",
+   "timestamp": "2026-09-04T07:40:43.137988",
+   "createdAt": "2026-09-04T05:41:11.705068Z",
+   "updatedAt": "2026-09-04T05:43:34.451646Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "2.60",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1358"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.5,
+    "extras": {
+     "uploaded_to_decent": 1788500476,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788500476,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "828a5552-c84a-4cc0-86bb-2cc41f08096e",
+   "timestamp": "2026-09-04T07:32:53.167287",
+   "createdAt": "2026-09-04T05:33:22.508789Z",
+   "updatedAt": "2026-09-04T05:33:32.114889Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "2.60",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1358"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.6,
+    "extras": {
+     "uploaded_to_decent": 1788500007,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788500007,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "63580bfc-107c-43d1-8911-4669a94e9f7c",
+   "timestamp": "2026-09-03T07:39:40.811253",
+   "createdAt": "2026-09-03T05:39:40.811253Z",
+   "updatedAt": "2026-09-03T05:39:40.811253Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "2.60",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1333"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.6,
+    "extras": {
+     "uploaded_to_decent": 1788414013,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788414013,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "8d27c731-d797-4eac-877a-7353c2af82e0",
+   "timestamp": "2026-09-03T07:35:26.159698",
+   "createdAt": "2026-09-03T05:35:26.159698Z",
+   "updatedAt": "2026-09-03T05:35:26.159698Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "2.60",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1333"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.7,
+    "extras": {
+     "uploaded_to_decent": 1788413764,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788413764,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "57ed19d3-5ca8-48d9-8b02-87639d5c3e5c",
+   "timestamp": "2026-09-02T06:55:13.167393",
+   "createdAt": "2026-09-02T04:55:13.167393Z",
+   "updatedAt": "2026-09-02T04:55:13.167393Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "2.60",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1333"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.3,
+    "extras": {
+     "uploaded_to_decent": 1788324952,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788324952,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "2b49b608-23bf-4c79-8602-bdfcabf80d01",
+   "timestamp": "2026-09-01T06:43:20.457701",
+   "createdAt": "2026-09-01T04:43:20.457701Z",
+   "updatedAt": "2026-09-01T04:43:20.457701Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "2.60",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 95,
+     "duration": 30,
+     "volume": 200,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1333"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 36,
+    "enjoyment": 60,
+    "espressoNotes": "(note)",
+    "extras": {
+     "uploaded_to_decent": 1788237827,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "shotNotes": "(note)",
+   "metadata": {
+    "uploaded_to_decent": 1788237827,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "1b7a9acb-f92e-4baa-84e8-26ef4837de5b",
+   "timestamp": "2026-08-31T17:18:45.941633",
+   "createdAt": "2026-08-31T15:18:45.941633Z",
+   "updatedAt": "2026-08-31T15:18:45.941633Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 70,
+     "duration": 30,
+     "volume": 50,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1333"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.9,
+    "extras": {
+     "uploaded_to_decent": 1788189558,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788189558,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "e5d27715-8ff0-4eab-8159-88ed9797eba9",
+   "timestamp": "2026-08-31T14:51:58.026803",
+   "createdAt": "2026-08-31T12:51:58.026803Z",
+   "updatedAt": "2026-08-31T12:51:58.026803Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 70,
+     "duration": 30,
+     "volume": 50,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1333"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.7,
+    "extras": {
+     "uploaded_to_decent": 1788180754,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788180754,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "bdca5798-571e-4ef9-8a2c-51b6ee8608a2",
+   "timestamp": "2026-08-31T14:51:42.411096",
+   "createdAt": "2026-08-31T12:51:42.411096Z",
+   "updatedAt": "2026-08-31T12:51:42.411096Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 70,
+     "duration": 30,
+     "volume": 50,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1333"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18
+   },
+   "stopReason": "targetWeight"
+  },
+  {
+   "id": "6af34377-59a8-41a3-8560-8fecda3e272e",
+   "timestamp": "2026-08-31T14:44:32.401519",
+   "createdAt": "2026-08-31T12:44:32.401519Z",
+   "updatedAt": "2026-08-31T12:44:32.401519Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "D-Flow",
+     "notes": "A simple to use profiling system By Damian Brakel\n        D-Flow's Default profile is provided as an example profile for you to get started in creating your own",
+     "author": "Damian.",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "Filling",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+       },
+       "volume": 100,
+       "seconds": 25,
+       "weight": 5,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Infusing",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 100,
+       "seconds": 60,
+       "weight": 4,
+       "temperature": 90,
+       "sensor": "coffee",
+       "pressure": 3,
+       "limiter": null
+      },
+      {
+       "name": "Pouring",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 127,
+       "weight": 0,
+       "temperature": 90,
+       "sensor": "coffee",
+       "flow": 1.7,
+       "limiter": {
+        "value": 8.5,
+        "range": 0.2
+       }
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 70,
+     "duration": 30,
+     "volume": 50,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1333"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 35.7,
+    "extras": {
+     "uploaded_to_decent": 1788180300,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "targetWeight",
+   "metadata": {
+    "uploaded_to_decent": 1788180300,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "169b9652-bdb3-4133-8c91-09d87c3b5b1a",
+   "timestamp": "2026-08-31T14:20:29.188059",
+   "createdAt": "2026-08-31T12:20:29.188059Z",
+   "updatedAt": "2026-08-31T12:20:29.188059Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "Default",
+     "notes": "This profile is gentle on the coffee puck and not too demanding on the barista.  Produces a very acceptable espresso in a wide variety of settings.",
+     "author": "Decent",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "preinfusion temp boost",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 4
+       },
+       "volume": 0,
+       "seconds": 2,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "flow": 8,
+       "limiter": null
+      },
+      {
+       "name": "preinfusion",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 4
+       },
+       "volume": 0,
+       "seconds": 18,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "flow": 8,
+       "limiter": null
+      },
+      {
+       "name": "forced rise without limit",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 3,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "pressure": 8.6,
+       "limiter": null
+      },
+      {
+       "name": "rise and hold",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 1,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "pressure": 8.6,
+       "limiter": null
+      },
+      {
+       "name": "forced rise without limit",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 3,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "pressure": 8.6,
+       "limiter": null
+      },
+      {
+       "name": "decline",
+       "pump": "pressure",
+       "transition": "smooth",
+       "exit": null,
+       "volume": 0,
+       "seconds": 32,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "pressure": 6,
+       "limiter": null
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "2.70",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 70,
+     "duration": 30,
+     "volume": 50,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1333"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 2.4,
+    "extras": {
+     "uploaded_to_decent": 1788178847,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "machineEnded",
+   "metadata": {
+    "uploaded_to_decent": 1788178847,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  },
+  {
+   "id": "aa28a95b-17b1-4f8a-8559-ab611ba158da",
+   "timestamp": "2026-08-31T14:13:54.769515",
+   "createdAt": "2026-08-31T12:13:54.769515Z",
+   "updatedAt": "2026-08-31T12:13:54.769515Z",
+   "workflow": {
+    "id": "ec12dc93-a2a0-4d5b-89f1-571cbc6039b3",
+    "name": "Bean 7",
+    "description": "(note)",
+    "profile": {
+     "version": "2",
+     "title": "Default",
+     "notes": "This profile is gentle on the coffee puck and not too demanding on the barista.  Produces a very acceptable espresso in a wide variety of settings.",
+     "author": "Decent",
+     "beverage_type": "espresso",
+     "steps": [
+      {
+       "name": "preinfusion temp boost",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 4
+       },
+       "volume": 0,
+       "seconds": 2,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "flow": 8,
+       "limiter": null
+      },
+      {
+       "name": "preinfusion",
+       "pump": "flow",
+       "transition": "fast",
+       "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 4
+       },
+       "volume": 0,
+       "seconds": 18,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "flow": 8,
+       "limiter": null
+      },
+      {
+       "name": "forced rise without limit",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 3,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "pressure": 8.6,
+       "limiter": null
+      },
+      {
+       "name": "rise and hold",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 1,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "pressure": 8.6,
+       "limiter": null
+      },
+      {
+       "name": "forced rise without limit",
+       "pump": "pressure",
+       "transition": "fast",
+       "exit": null,
+       "volume": 0,
+       "seconds": 3,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "pressure": 8.6,
+       "limiter": null
+      },
+      {
+       "name": "decline",
+       "pump": "pressure",
+       "transition": "smooth",
+       "exit": null,
+       "volume": 0,
+       "seconds": 32,
+       "weight": 0,
+       "temperature": 92,
+       "sensor": "coffee",
+       "pressure": 6,
+       "limiter": null
+      }
+     ],
+     "target_volume": 0,
+     "target_weight": 36,
+     "target_volume_count_start": 2,
+     "tank_temperature": 0
+    },
+    "context": {
+     "targetDoseWeight": 18,
+     "targetYield": 36,
+     "grinderModel": "Timemore Sculpture 078s",
+     "grinderSetting": "2.70",
+     "beanBatchId": "a473a25c-68af-4745-8e95-0c8168fa19fe",
+     "coffeeName": "Bean 8",
+     "coffeeRoaster": "Roaster 3",
+     "extras": {
+      "basketId": "630760f5-b057-49aa-8c52-c1c86e71caea",
+      "basketName": "Decent 18g"
+     }
+    },
+    "steamSettings": {
+     "targetTemperature": 160,
+     "duration": 120,
+     "flow": 0.8,
+     "stopAtTemperature": 0
+    },
+    "hotWaterData": {
+     "targetTemperature": 70,
+     "duration": 30,
+     "volume": 50,
+     "flow": 10
+    },
+    "rinseData": {
+     "targetTemperature": 90,
+     "duration": 10,
+     "flow": 4
+    },
+    "machine": {
+     "provenanceStatus": "captured",
+     "flowCalibration": 0.85,
+     "model": "DE1Pro",
+     "firmwareVersion": "1333"
+    }
+   },
+   "annotations": {
+    "actualDoseWeight": 18,
+    "actualYield": 0,
+    "extras": {
+     "uploaded_to_decent": 1788178451,
+     "decent_upload_rejected": null,
+     "visualizer": {
+      "roast_level": null,
+      "roast_date": null,
+      "bean_notes": null,
+      "private_notes": null,
+      "tags": [],
+      "fragrance": null,
+      "aroma": null,
+      "flavor": null,
+      "aftertaste": null,
+      "acidity": null,
+      "bitterness": null,
+      "sweetness": null,
+      "mouthfeel": null
+     }
+    }
+   },
+   "stopReason": "machineEnded",
+   "metadata": {
+    "uploaded_to_decent": 1788178451,
+    "decent_upload_rejected": null,
+    "visualizer": {
+     "roast_level": null,
+     "roast_date": null,
+     "bean_notes": null,
+     "private_notes": null,
+     "tags": [],
+     "fragrance": null,
+     "aroma": null,
+     "flavor": null,
+     "aftertaste": null,
+     "acidity": null,
+     "bitterness": null,
+     "sweetness": null,
+     "mouthfeel": null
+    }
+   }
+  }
+ ],
+ "total": 235,
+ "limit": 20,
+ "offset": 120
+}

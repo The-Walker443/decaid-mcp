@@ -1,0 +1,24 @@
+{
+ "id": "b2e065ac-8435-4c9c-82cf-d74d6d354122",
+ "beanId": "fa0deff8-33dd-47e6-859d-d19bbd13b05c",
+ "roastDate": "2026-09-01T00:00:00.000Z",
+ "weight": 250,
+ "weightRemaining": 250,
+ "frozen": false,
+ "archived": false,
+ "notes": "(note)",
+ "createdAt": "2026-09-29T11:17:05.168314",
+ "updatedAt": "2026-09-29T11:28:15.080735",
+ "extras": {
+  "storageEvents": [
+   {
+    "type": "frozen",
+    "at": "2026-09-29T09:28:14.329Z"
+   },
+   {
+    "type": "thawed",
+    "at": "2026-09-29T09:28:17.397Z"
+   }
+  ]
+ }
+}
