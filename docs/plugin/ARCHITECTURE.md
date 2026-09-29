@@ -1,6 +1,6 @@
 # decaid-mcp plugin: architecture
 
-Task 2 of the plugin assignment: the concept the operator decides on. No product code yet.
+Task 2 of the plugin assignment: the concept the operator decides on. No product code yet. The operator's decisions are recorded in §12.
 
 Basis:
 
@@ -45,32 +45,32 @@ server" below. Its file names (`metrics.py`, `writes.py`, `freezing.py`,
 | Endpoints | `mcp` (`type: http`) | One MCP endpoint, `/api/v1/plugins/decaid-mcp.reaplugin/mcp` |
 | `onLoad` | Logs one line, returns immediately | The load watchdog allows 1 s, and three failed loads disable auto-load (Test 7). No network in `onLoad` |
 
-Source modules (bundled into one `plugin.js`, §10):
+**One hand-written `plugin.js` at the repo root, with no build step** (operator
+decision, §10). The file is divided into sections in this order. Each section
+is a block of plain functions with a banner comment. Only the last one touches
+`host`:
 
 ```text
-src/
-  plugin.js            createPlugin(host): wiring, onLoad, __httpRequestHandler
-  mcp/protocol.js      JSON-RPC and Streamable HTTP handling, tool dispatch
-  mcp/tools.js         tool definitions (name, description, inputSchema, annotations)
-  decaid/client.js     fetch wrapper: base URL, JSON, timing, error mapping
-  decaid/guard.js      machine-state check (§6.2)
-  decaid/scale.js      rating-scale probe (§7.4)
-  runtime/slicer.js    cooperative scheduling and the slice budget (§6.1)
-  domain/shots.js      native-shot filter, list paging, shot summary, profile summary
-  domain/rows.js       measurements -> rows (decaid_mapping.series_rows_from_decaid)
-  domain/metrics.js    compute_metrics: timing, pressure, pour, first drops, warnings
-  domain/diagnostics.js puck_resistance, channeling, profile_compliance
-  domain/curve.js      curve_shape, downsample_curve
-  domain/stats.js      summarise over list metadata
-  domain/freezing.js   frost read rule, event mirroring, active age
-  domain/rounding.js   Python-compatible rounding (§5.3)
-  writes/rules.js      rulesets and value checks (writes.py)
-  writes/apply.js      read-before, PUT, read-back, outcome
+plugin.js
+  1  rounding      Python-compatible rounding (§5.3)
+  2  rows          measurements -> rows (decaid_mapping.series_rows_from_decaid)
+  3  metrics       compute_metrics: timing, pressure, pour, first drops, warnings
+  4  diagnostics   puck_resistance, channeling, profile_compliance
+  5  curve         curve_shape, downsample_curve
+  6  shots         native-shot filter, shot summary, profile summary
+  7  stats         summarise over list metadata
+  8  freezing      frost read rule, event mirroring, active age
+  9  rules         write rulesets and value checks (writes.py)
+ 10  slicer        cooperative scheduling and the slice budget (§6.1)
+ 11  decaid        fetch wrapper, machine-state guard (§6.2), scale probe (§7.4)
+ 12  tools         tool definitions and handlers, read-before / PUT / read-back
+ 13  mcp           JSON-RPC and Streamable HTTP handling
+ 14  createPlugin  wiring, onLoad, __httpRequestHandler
 ```
 
-`domain/*` and `writes/rules.js` are pure. They take data and return data,
-without `fetch`, `host` or clock access (the clock is passed in), so Node can
-test them unchanged (§9).
+Sections 1 to 9 are pure: no `fetch`, no `host`, and no clock access (the clock
+is passed in). `createPlugin.internals` exposes them to the tests (§9.1). It is
+a plain property on the function, which the plugin itself never reads.
 
 ## 3. Tools
 
@@ -184,12 +184,12 @@ Everything in `metrics.py` that `get_shot` and `compare_shots` need is ported,
 with **thresholds and constants copied unchanged**, including the comments that
 justify them:
 
-| Python | JS module | Content |
+| Python | `plugin.js` section | Content |
 |--------|-----------|---------|
-| `decaid_mapping.series_rows_from_decaid`, `decaid_client.measurement_times` | `domain/rows.js` | Measurements to rows, elapsed from timestamps, de-duplication |
-| `compute_metrics` and helpers (`phase_boundaries`, `_pi_end`, `substate_change`, `frame_boundaries`) | `domain/metrics.js` | `pi_end` and its source, the two pressure maxima, dip, pour flow and stability, trend, temperatures, end pressure, first drops with the tare check, `duration_s`, ratio, warnings |
-| `settled_window`, `puck_resistance`, `_theil_sen`, `channeling`, `_flow_jitter`, `_flow_divergence`, `profile_compliance`, `_phase_compliance`, `control_mode` | `domain/diagnostics.js` | The five channeling indicators and compliance per control mode and phase |
-| `curve_shape`, `_describe`, `_is_linear`, `downsample_curve` | `domain/curve.js` | Shape as text-like segments; raw curve on request |
+| `decaid_mapping.series_rows_from_decaid`, `decaid_client.measurement_times` | section `rows` | Measurements to rows, elapsed from timestamps, de-duplication |
+| `compute_metrics` and helpers (`phase_boundaries`, `_pi_end`, `substate_change`, `frame_boundaries`) | section `metrics` | `pi_end` and its source, the two pressure maxima, dip, pour flow and stability, trend, temperatures, end pressure, first drops with the tare check, `duration_s`, ratio, warnings |
+| `settled_window`, `puck_resistance`, `_theil_sen`, `channeling`, `_flow_jitter`, `_flow_divergence`, `profile_compliance`, `_phase_compliance`, `control_mode` | section `diagnostics` | The five channeling indicators and compliance per control mode and phase |
+| `curve_shape`, `_describe`, `_is_linear`, `downsample_curve` | section `curve` | Shape as text-like segments; raw curve on request |
 
 Not ported: `METRICS_VERSION` (there is no cache), `metrics_for_shot`,
 `warm_metrics_cache`, and everything DB-related. Dose and yield come from
@@ -205,7 +205,7 @@ rounding. Task 3 extends this to every ported function, with golden files
 ### 5.3 Rounding
 
 Python's `round()` rounds half to even, and JavaScript's `Math.round` rounds
-half up. `domain/rounding.js` implements Python's behaviour on the decimal
+half up. Section `rounding` implements Python's behaviour on the decimal
 representation, so outputs match to the last digit. The parity tests pin the
 difference with constructed half-way values.
 
@@ -220,7 +220,7 @@ difference with constructed half-way values.
 | Plugin-controlled computation (one pipeline stage of one shot, one page of list processing, response building) | **≤ 5 ms** target, **≤ 10 ms** hard ceiling | Two metrics for one 184-point shot took 7 ms in total (Test 4). The full pipeline is split into seven stages of about 1-4 ms each at 184 points. Shots up to 600 points stay under the ceiling |
 | Atomic host step (Decaid's hand-off of one fetch response into JS, plus `JSON.parse` of it) | **≤ 20 ms** | Cannot be split: the bridge evaluates the whole body at once. It is kept bounded through response sizes: one shot per request (3-5 ms, maximum 20 ms measured), list pages of 20 (~100 kB) |
 
-**Mechanism.** `runtime/slicer.js` provides `await slicer.pause()`, a macrotask
+**Mechanism.** Section `slicer` provides `await slicer.pause()`, a macrotask
 yield: `new Promise(r => setTimeout(r, 0))`. A microtask (`await
 Promise.resolve()`) does **not** return control to Decaid, because the host
 drains all pending jobs in one go (`executePendingJob` loop). The tablet
@@ -404,8 +404,8 @@ Test 8).
 Per the operator's decision there is no special handling of ambiguous
 *stored* values: ratings are shown as stored, together with the scale.
 `writes.py` also refuses *writing* 1-10 on a 0-100 tablet, because Decaid's
-0-10 migration would leave such a value unscaled. That rule is kept in this
-draft, but it touches the same decision (open point 1).
+0-10 migration would leave such a value unscaled. The operator decided to keep
+that rule (§12, point 1): it protects writes and does not touch stored values.
 
 ## 8. MCP protocol layer
 
@@ -464,11 +464,14 @@ draft, but it touches the same decision (open point 1).
 ### 9.1 Tooling
 
 - Node ≥ 20 with the built-in `node:test` and `node:assert`. No test
-  framework.
-- Pure modules are imported directly.
-- The bundled `plugin.js` is also loaded as a whole through `new
-  Function(src + "; return createPlugin;")` with a fake host. This is the same
-  technique used for the calibration run in Task 2.
+  framework and no `package.json` dependencies.
+- `test/load.mjs` loads the root `plugin.js` once through `new Function(src +
+  "; return createPlugin;")`, the technique of the Task 2 calibration run.
+- It hands the tests two things:
+  - `createPlugin.internals`, the pure sections 1-9, tested directly;
+  - `createPlugin(fakeHost)`, the whole plugin behind a fake `fetch`, a fake
+    `setTimeout` and a recording `log`.
+- So the file that is tested is byte for byte the file Decaid installs.
 
 ### 9.2 Fixtures and golden files
 
@@ -526,33 +529,61 @@ difference fails. The golden files are committed, so CI needs no Python.
    write tool are refused, a light tool answers.
 6. What `/machine/state` answers without a connected DE1 (guard edge case).
 7. Plugin `Date` local time equals tablet local time (the `stats` period).
-8. Install from the release ZIP, `enable`, connect, and uninstall.
+8. Install from branch `stable` via `github-branch`, `enable`, connect, update after a new merge, and uninstall.
 
-## 10. Repo structure (decision template)
+## 10. Repo structure (decided)
 
-The repo itself is decided: the operator created
-`The-Walker443/decaid-mcp` as a fresh project, independent of
-decentespresso-mcp. What remains open is how the installable plugin comes out
-of it. Decaid needs `manifest.json` and `plugin.js` at the root of a branch
-archive, or in a release ZIP (D8).
+The operator created the repo `The-Walker443/decaid-mcp` as a fresh project,
+independent of decentespresso-mcp, and chose **option B**: one hand-written
+`plugin.js` with no build step.
 
-| Option | Layout | Pros | Cons |
-|--------|--------|------|------|
-| **A: sources + build + release ZIP** (recommended) | `src/` modules, `test/`, `tools/`. `npm run build` bundles with **esbuild** (the only dev dependency) into `dist/decaid-mcp.reaplugin/`. A GitHub Action on tag `vX.Y.Z` runs the tests, checks tag = manifest version, and attaches one ZIP (the DYE2 pattern) | Small modules, each tested alone. Install and update via `github-release` with Decaid's update and permission rules. Tags equal versions | One build step, one dev dependency |
-| B: hand-written single `plugin.js` at repo root | `manifest.json` and `plugin.js` at the root, tests beside them | No build. Installable via `github-branch` from `main` | A 2,500+ line file. Every push to `main` is a live update for branch installs. Tests load the whole file |
-| C: like A, but a zero-dependency concat script instead of esbuild | Same as A | No npm dependency at all | A home-made module system (ordering, naming) to maintain |
+```text
+manifest.json        at the root: Decaid needs manifest and plugin.js at the
+plugin.js            root of a branch archive (D8)
+README.md            user documentation (Task 3)
+LICENSE              GPL-3.0
+test/                node:test suites, load.mjs, fixtures/, golden/
+tools/               capture-fixtures.mjs, python-reference.py, load-probe.mjs
+docs/                plugin-spike/, plugin/
+spike/               Task 1 record
+.github/workflows/   test.yml
+```
 
-Documents stay in `docs/`. `spike/` remains as a record of Task 1.
+**Branches.**
+
+- Development happens on `main`.
+- Tablets install from **`stable`**.
+- A release is a fast-forward merge of `main` into `stable`, only with green
+  CI and a `version` bump in `manifest.json`. Decaid's downgrade protection
+  refuses a lower version, and a moved branch with an unchanged version still
+  updates.
+- Nothing pushed to `main` reaches a tablet.
+
+**Installed package.** Decaid copies the whole branch archive into its plugin
+directory. That includes `test/`, `docs/` and `spike/` (a few hundred kB).
+This is harmless, because Decaid only runs `plugin.js`.
+`spike/decaid-plugin/manifest.json` does not compete: Decaid takes the archive
+root first and only looks one directory deeper when the root has no manifest.
+The Task 3 acceptance confirms this.
+
+**CI.** `.github/workflows/test.yml` runs `node --test` on every push and pull
+request. A branch protection rule on `stable` requires it to pass.
+
+**Consequences of option B**, accepted by the operator:
+
+- `plugin.js` will grow to roughly 2,500-3,000 lines. The section order and
+  banners in §2 keep it navigable.
+- There are no release ZIPs and no `github-release` install.
 
 ## 11. Operations documentation (outline)
 
 1. **What it is**: tools, limits, only native shots, no shot time in `stats`.
 2. **Install**:
-   - `POST /api/v1/plugins/install/github-release` with
-     `{"repo": "The-Walker443/decaid-mcp"}`;
+   - `POST /api/v1/plugins/install/github-branch` with
+     `{"repo": "The-Walker443/decaid-mcp", "branch": "stable"}`;
    - then `POST /api/v1/plugins/decaid-mcp.reaplugin/enable`, which is
      required (D7);
-   - updates through Decaid's plugin update check;
+   - updates through Decaid's plugin update check, whenever `stable` moves;
    - uninstall.
 3. **Connect in the LAN**:
    - Claude Code: `claude mcp add --transport http decaid
@@ -585,30 +616,25 @@ Documents stay in `docs/`. `spike/` remains as a record of Task 1.
    - `truncated`;
    - the tablet is not reachable.
 
-## 12. Open points for the operator
+## 12. Operator decisions (2026-09-29)
 
-1. **Writing ratings 1-10 on a 0-100 tablet.** `writes.py` refuses them,
-   because after Decaid's 0-10 migration such a value would stay unscaled and
-   read ten times too high. That is write-side protection, not handling of
-   stored values, so it is kept in this draft. Keep it (recommended), or drop
-   it under decision (2)?
-2. **The busy set is wider than the four activities named.** It also covers
-   cleaning, descaling, calibration, air purge, self-test, firmware update,
-   `skipStep` and `busy`. Agreed?
-3. **Frost precedence: events before date fields.** This reverses the Python
-   server's rule (§7.3). Agreed?
-4. **Frost history edits.** The plugin only appends or re-times the latest
-   freeze or thaw. Correcting an older cycle stays in Beanie. Sufficient?
-5. **`stats` bounds**: the cap at 500 shots (about 100 days at the current
-   rate), and `compare_previous` off by default (it doubles the paging). Agreed?
-6. **`list_batches` folded into `list_beans`** (14 tools instead of 15). Agreed?
-7. **Build**: option A with esbuild as the single dev dependency, B, or C
-   (§10)?
-8. **`actualDoseWeight`/`actualYield` on shots** are left out (the scope says
-   rating and notes, while `writes.py` allows them). Confirm, or add them?
-9. **Stateless MCP and no Origin check** (§8). Confirm that this matches "the
-   plugin does not protect itself".
-10. **CI**: a GitHub Action for tests and release (option A). Agreed?
+| # | Point | Decision |
+|---|-------|----------|
+| 1 | Writing ratings 1-10 on a 0-100 tablet | **Refused**, as in `writes.py`: on 0-100 only 0 or values over 10 (§7.4). This protects writes and does not touch stored values |
+| 2 | Busy set | **Wide set** as in §6.2, including maintenance runs and `busy` |
+| 3 | Frost read precedence | **Events before date fields** (§7.3), reversing the Python server's rule |
+| 4 | Frost history edits | **Only append or re-time the latest event.** Older cycles are corrected in Beanie |
+| 5 | `stats` bounds | **500 shots**, `compare_previous` **off** by default |
+| 6 | `list_batches` | **Folded into `list_beans`**: 14 tools |
+| 7 | Build | **Option B**: one hand-written `plugin.js`, no build (§10) |
+| 7a | Install branch | **`stable`**, merged from `main` (§10) |
+| 8 | Dose and yield on shots | **Left out**: rating and notes only |
+| 9 | Sessions and Origin | **Stateless, no Origin check.** Documented in the README |
+| 10 | CI | **Tests on every push** (GitHub Actions). Required for merges into `stable` |
+
+No open points remain for Task 3. Still pending outside this document: the
+Decaid restart test (Test 7, for the operations doc), then deleting the
+`spike-plugin` branch.
 
 ## 13. Findings made during Task 2
 
