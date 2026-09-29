@@ -1,0 +1,22 @@
+{
+  "id": "decaid-mcp-spike.reaplugin",
+  "author": "The-Walker443",
+  "name": "decaid-mcp spike (throwaway)",
+  "description": "Throwaway feasibility probe for an MCP server as a Decaid plugin. Not for use - uninstall after the spike.",
+  "version": "0.0.2",
+  "apiVersion": 1,
+  "permissions": ["log", "api", "pluginStorage"],
+  "settings": {},
+  "api": [
+    { "id": "mcp", "type": "http", "data": {} },
+    { "id": "echo", "type": "http", "data": {} },
+    { "id": "call", "type": "http", "data": {} },
+    { "id": "burn", "type": "http", "data": {} },
+    { "id": "sleep", "type": "http", "data": {} },
+    { "id": "size", "type": "http", "data": {} },
+    { "id": "life", "type": "http", "data": {} },
+    { "id": "fail", "type": "http", "data": {} },
+    { "id": "metrics", "type": "http", "data": {} },
+    { "id": "store", "type": "http", "data": {} }
+  ]
+}
